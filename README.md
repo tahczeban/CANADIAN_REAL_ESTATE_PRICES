@@ -1,5 +1,11 @@
 # group10_project
 
+
+
+![image](https://user-images.githubusercontent.com/90135381/158727737-2db68a11-9ee9-40e7-986e-71c8bb8369c7.png)
+
+IMAGE obtained from: https://lovepik.com/image-401202582/real-estate-investment.html
+
 ***Topic:*** Real Estate in Canada
 
 How does population change (immigration) effect the residential property price index across Canada?
