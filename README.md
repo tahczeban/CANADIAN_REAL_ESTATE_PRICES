@@ -56,7 +56,11 @@ Preprocessing of data:
 ***Participant Names*** 
 
 David Baek
+
 Siddhant Arora
+
 Zhiyi Chen
+
 Tanya Czeban
+
 Dylan Ruff
