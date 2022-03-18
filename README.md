@@ -12,8 +12,6 @@ Which province is the best province to purchase a house in for investment/person
 
 How does household income determine housing selection and location?
 
-How does immigration effect the residential property price index across Canada?
-
 
 ***We chose this question because:***
 
@@ -59,6 +57,8 @@ Preprocessing of data:
 
 
 ***Vizualizations:*** Tableau, graphs, matrices, confusion matrix, Google Slides, Python/Vsc, Pandas
+
+???How does immigration effect the residential property price index across Canada?
 ________________
 ________________
 
