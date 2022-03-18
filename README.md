@@ -53,7 +53,7 @@ Preprocessing of data:
 
 -Elbow curve for cluster determination
 
--stats?: mean, median, mode, SD, variance, accuracy-outliers?
+-stats?: mean, median, mode, SD, variance, accuracy-potential outliers to remove to improve ML model?
 
 ***Data Base:*** Postgres and SQL
 
