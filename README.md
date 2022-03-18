@@ -8,7 +8,7 @@ IMAGE obtained from: https://lovepik.com/image-401202582/real-estate-investment.
 
 ***Topic:*** Real Estate in Canada
 
-Which province is the best province to purchase a house in for investment purposes?
+Which province is the best province to purchase a house in for investment/personal purposes?
 
 How does household income determine housing selection and location?
 
