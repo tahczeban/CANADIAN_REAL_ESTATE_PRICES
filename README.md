@@ -53,7 +53,7 @@ Preprocessing of data:
 
 -stats: mean, median, mode, SD, variance, accuracy
 
-***Data Base:*** Postgres and SQL, AWS, S3 for joining tables and presenting post cleaning/preprocessing
+***Data Base:*** Postgres and SQL
 
 
 ***Vizualizations:*** Tableau, graphs, matrices, bootstrap, JavaScript, Google Slides, Python/Vsc, Pandas
