@@ -53,7 +53,7 @@ Preprocessing of data:
 
 -Elbow curve for cluster determination
 
--stats?: mean, median, mode, SD, variance, accuracy
+-stats?: mean, median, mode, SD, variance, accuracy-outliers?
 
 ***Data Base:*** Postgres and SQL
 
