@@ -31,7 +31,7 @@ Tables:
 
 
 
-***ML Model:*** deep ML, as we do not know the prediction outcomes import dependencies and read the csv’s
+***ML Model:*** decision tree
 
 Preprocessing of data:  
 
@@ -56,7 +56,7 @@ Preprocessing of data:
 ***Data Base:*** Postgres and SQL
 
 
-***Vizualizations:*** Tableau, graphs, matrices, bootstrap, JavaScript, Google Slides, Python/Vsc, Pandas
+***Vizualizations:*** Tableau, graphs, matrices, Google Slides, Python/Vsc, Pandas
 ________________
 ________________
 
