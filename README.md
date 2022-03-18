@@ -23,8 +23,7 @@ How does immigration effect the residential property price index across Canada?
 
 -municipal/national housing: trending if housing supply meets demands
 
-***Data Sources:*** Statistics Canada
-Tables:
+***Data Sources:*** Statistics Canada Tables:
 
 -Residential property price index, quarterly
 
@@ -34,7 +33,7 @@ Tables:
 
 
 
-***ML Model:*** decision tree
+***ML Model:*** decision tree with clusters
 
 Preprocessing of data:  
 
@@ -54,12 +53,12 @@ Preprocessing of data:
 
 -Elbow curve for cluster determination
 
--stats: mean, median, mode, SD, variance, accuracy
+-stats?: mean, median, mode, SD, variance, accuracy
 
 ***Data Base:*** Postgres and SQL
 
 
-***Vizualizations:*** Tableau, graphs, matrices, Google Slides, Python/Vsc, Pandas
+***Vizualizations:*** Tableau, graphs, matrices, confusion matrix, Google Slides, Python/Vsc, Pandas
 ________________
 ________________
 
