@@ -1,13 +1,11 @@
 # group10_project
 
-MODULE 20
-
 ![image](https://user-images.githubusercontent.com/90135381/158727737-2db68a11-9ee9-40e7-986e-71c8bb8369c7.png)
 
 IMAGE obtained from: https://lovepik.com/image-401202582/real-estate-investment.html
 
 
-## ***Topic:*** Real Estate in Canada
+## **Topic: Real Estate in Canada**
 
 ## **Questions with data**
 - Which province is the best province to purchase a house in for investment/personal purposes?
@@ -15,7 +13,7 @@ IMAGE obtained from: https://lovepik.com/image-401202582/real-estate-investment.
 - How does household income determine housing selection and location?
 
 
-## ***We chose this question because:***
+## **We chose this question because**
 
 - affordability concerns for first-time buyers/younger adults
 
@@ -24,7 +22,7 @@ IMAGE obtained from: https://lovepik.com/image-401202582/real-estate-investment.
 - municipal/national housing: trending if housing supply meets demands
 
 
-## ***Data Sources:*** Statistics Canada Tables:
+## **Data Sources**
 
 - Residential property price index, quarterly 
 https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810016901
@@ -41,7 +39,7 @@ https://stats.oecd.org/Index.aspx?DataSetCode=HOUSE_PRICES#
 https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4310002601
 
 
-## ***ML Model:*** decision tree with clusters
+## **ML Model: decision tree with clusters**
 
 Preprocessing of data:  
 
@@ -64,10 +62,12 @@ Preprocessing of data:
 -stats?: mean, median, mode, SD, variance, accuracy-potential outliers to remove to improve ML model?
 
 
-## ***Data Base:*** Postgres and SQL
+## **Data Base**
+Postgres and SQL
 
 
-## ***Vizualizations:*** Tableau, graphs, matrices, confusion matrix, Google Slides, Python/Vsc, Pandas
+## **Vizualizations** 
+Tableau, graphs, matrices, confusion matrix, Google Slides, Python/Vsc, Pandas
 
 ???How does immigration effect the residential property price index across Canada?
 ________________
@@ -75,7 +75,7 @@ ________________
 
 Nik, out input and get recommendations
 
-## ***Participant Names*** 
+## **Participant Names**
 
 David Baek
 
