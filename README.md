@@ -34,7 +34,7 @@ https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810016901
 - Total family income and characteristics of residential property owners by family type
 https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4610005101
 
-- Analytical house prices indicators （countryies)
+- Analytical house prices indicators （country)
 https://stats.oecd.org/Index.aspx?DataSetCode=HOUSE_PRICES#
 
 - Income of Immigrant tax-filers, by immigrant admission category and tax year, for Canada and provinces, 2019 constant dollars
