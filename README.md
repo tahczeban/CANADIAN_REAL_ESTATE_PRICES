@@ -14,7 +14,8 @@ IMAGE obtained from: https://lovepik.com/image-401202582/real-estate-investment.
 
 - How does household income determine housing selection and location?
 
-
+- ???How does immigration effect the residential property price index across Canada?
+- 
 ## **We chose this question because**
 
 - affordability concerns for first-time buyers/younger adults
@@ -71,11 +72,10 @@ Postgres and SQL
 ## **Vizualizations** 
 Tableau, graphs, matrices, confusion matrix, Google Slides, Python/Vsc, Pandas
 
-???How does immigration effect the residential property price index across Canada?
 ________________
 ________________
 
-Nik, out input and get recommendations
+
 
 ## **Participant Names**
 
