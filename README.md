@@ -7,6 +7,8 @@ IMAGE obtained from: https://lovepik.com/image-401202582/real-estate-investment.
 
 ## **Topic: Real Estate in Canada**
 
+
+
 ## **Questions with data**
 - Which province is the best province to purchase a house in for investment/personal purposes?
 
@@ -43,23 +45,23 @@ https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4310002601
 
 Preprocessing of data:  
 
--value_counts, delete nulls, make appropriate DF’s
+- value_counts, delete nulls, make appropriate DF’s
 
--Create OneHotEncoder
+- Create OneHotEncoder
 
--Fit encoder and produce encoded DF
+- Fit encoder and produce encoded DF
 
--Rename encoded columns
+- Rename encoded columns
 
--Merge DF’s
+- Merge DF’s
 
--Standardize Data
+- Standardize Data
 
--Deep neural network coding with hidden layers
+- Deep neural network coding with hidden layers
 
--Elbow curve for cluster determination
+- Elbow curve for cluster determination
 
--stats?: mean, median, mode, SD, variance, accuracy-potential outliers to remove to improve ML model?
+- stats?: mean, median, mode, SD, variance, accuracy-potential outliers to remove to improve ML model?
 
 
 ## **Data Base**
