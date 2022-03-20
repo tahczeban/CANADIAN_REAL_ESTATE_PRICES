@@ -8,9 +8,15 @@
 
 ***IMAGE*** obtained from: https://lovepik.com/image-401202582/real-estate-investment.html
 
+________________
+
 
  **General Topic: Real Estate in Canada**
  ________________________________
+
+***OVERVIEW:***
+
+The motivation for this project is to ultimately integrate all of the knowledge obtained and pertain it to real life situations utilizing statistics, data (pre)processing and Machine Learning (ML) procedures to create relevent and predictive models regarding this topic. The final model will be presented utilizing vizualizations for ease of conveying the aforementioned. A collaborative effort is being initiated to consider the topic of housing price indices, income, availability, and immigration across Canada, as this is a pertinent and essential topic among people in this day and age! 
 
 ## **Questions with data:**
 
@@ -44,6 +50,12 @@ https://stats.oecd.org/Index.aspx?DataSetCode=HOUSE_PRICES#
 
 - Income of Immigrant tax-filers, by immigrant admission category and tax year, for Canada and provinces, 2019 constant dollars
 https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4310002601
+
+
+______________
+***RESULTS:***
+
+The results for Deliverable 1 encompass team collaboration via slack and with the Teaching Staff in order to accomplish the goals. GitHub establishment requirements will be met including: initialization of an appropriate repository, addition of branches and a README. Additionally, cleaning and pre-processing the data will be considered. A 'mockup' database will be included, as well as a potential ML model. Lastly, an example ERD will be included for this submission to meet all requirements. 
 
 
 ## **ML Model: decision tree with clusters**
