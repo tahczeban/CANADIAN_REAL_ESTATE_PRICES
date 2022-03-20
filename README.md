@@ -9,16 +9,18 @@
 ***IMAGE*** obtained from: https://lovepik.com/image-401202582/real-estate-investment.html
 
 
- **Topic: Real Estate in Canada**
+ **General Topic: Real Estate in Canada**
+ ________________________________
 
-## **Questions with data**
+## **Questions with data:**
+
 - Which province is the best province to purchase a house in for investment/personal purposes?
 
 - How does household income determine housing selection and location?
 
 - ?How does immigration effect the residential property price index across Canada?
 - 
-## **We chose this question because**
+## **We chose this question because:**
 
 - affordability concerns for first-time buyers/younger adults
 
