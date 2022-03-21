@@ -55,9 +55,12 @@ https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4310002601
 ______________
 ***RESULTS:***
 
+***DELIVERABLE 1***
 The results for Deliverable 1 encompass team collaboration via slack and with the Teaching Staff, in order to accomplish the goals. GitHub establishment requirements will be met including: initialization of an appropriate repository, addition of all branches and a README. Additionally, cleaning and pre-processing the data will be considered. A 'mockup' database will be included, as well as a potential 'mockup' ML model. Lastly, an example ERD will be included for this submission to meet all requirements. A SCRUM method of approach will be contemplated in order to attain all goals with optimal results.
 
-
+***DELIVERABLE 2***
+ 
+Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6dQAZWPwopah6UY30V5wysAfAc/edit?usp=sharing
 ## **ML Model: decision tree with clusters**
 
 Preprocessing of data:  
