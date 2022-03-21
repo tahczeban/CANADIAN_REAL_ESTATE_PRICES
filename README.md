@@ -25,7 +25,7 @@ https://www.nbc.ca/content/dam/bnc/en/rates-and-analysis/economic-analysis/housi
 - How does household income determine housing selection and location?
 
 - ?How does immigration effect the residential property price index across Canada?
-- 
+
 ## **We chose this question because:**
 
 - affordability concerns for first-time buyers/younger adults
