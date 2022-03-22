@@ -109,12 +109,12 @@ ________________
 
 ## **Participant Names and roles**
 
-David Baek - 
+David Baek - Database
 
-Siddhant Arora - 
+Siddhant Arora - Machine learning model
 
-Zhiyi Chen - Machine learning
+Zhiyi Chen - Machine learning model
 
-Dylan Ruff - 
+Dylan Ruff - Database 
 
 Tanya Czeban - Github maintain, tableau, google slides
