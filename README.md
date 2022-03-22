@@ -109,12 +109,12 @@ ________________
 
 ## **Participant Names and roles**
 
-David Baek
+David Baek - 
 
-Siddhant Arora
+Siddhant Arora - 
 
 Zhiyi Chen - Machine learning
 
-Dylan Ruff
+Dylan Ruff - 
 
-Tanya Czeban - Github maintain and tableau
+Tanya Czeban - Github maintain, tableau, google slides
