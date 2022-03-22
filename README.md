@@ -53,6 +53,8 @@ https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4310002601
 
 - Average house prices in Canada from 2014 to 2020 with a forecast up to 2022 with, by province https://www.statista.com/statistics/587661/average-house-prices-canada-by-province/
 
+- National Price Map
+https://www.crea.ca/housing-market-stats/national-price-map/
 ______________
 ***RESULTS:***
 
