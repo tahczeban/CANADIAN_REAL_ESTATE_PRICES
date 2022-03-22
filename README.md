@@ -70,29 +70,33 @@ Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6
 
 ## **ML Model: decision tree with clusters**
 
-Preprocessing of data:  
+- Description of preliminary data preprocessing
+  - value_counts, delete nulls, make appropriate DF’s
 
-- value_counts, delete nulls, make appropriate DF’s
+  - Create OneHotEncoder
 
-- Create OneHotEncoder
+  - Fit encoder and produce encoded DF
 
-- Fit encoder and produce encoded DF
+  - Rename encoded columns
 
-- Rename encoded columns
+  - Merge DF’s
 
-- Merge DF’s
+  - Standardize Data
 
-- Standardize Data
+  - Deep neural network coding with hidden layers
 
-- Deep neural network coding with hidden layers
+  - Elbow curve for cluster determination
 
-- Elbow curve for cluster determination
+  - stats?: mean, median, mode, SD, variance, accuracy-potential outliers to remove to improve ML model?
+- Description of preliminary feature engineering and preliminary feature selection, including their decision-making process
+- Description of how data was split into training and testing sets
+- Explanation of model choice, including limitations and benefits
+  -linear regression model
 
-- stats?: mean, median, mode, SD, variance, accuracy-potential outliers to remove to improve ML model?
 
 
-## **Data Base**
-Postgres and SQL
+## **Database**
+Postgres and SQL, MongoDB
 
 
 ## **Vizualizations** 
@@ -103,14 +107,14 @@ ________________
 
 
 
-## **Participant Names**
+## **Participant Names and roles**
 
 David Baek
 
 Siddhant Arora
 
-Zhiyi Chen
+Zhiyi Chen - Machine learning
 
 Dylan Ruff
 
-Tanya Czeban
+Tanya Czeban - Github maintain and tableau
