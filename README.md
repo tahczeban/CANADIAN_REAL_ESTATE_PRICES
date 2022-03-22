@@ -51,6 +51,7 @@ https://stats.oecd.org/Index.aspx?DataSetCode=HOUSE_PRICES#
 - Income of Immigrant tax-filers, by immigrant admission category and tax year, for Canada and provinces, 2019 constant dollars
 https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4310002601
 
+- Average house prices in Canada from 2014 to 2020 with a forecast up to 2022 with, by province https://www.statista.com/statistics/587661/average-house-prices-canada-by-province/
 
 ______________
 ***RESULTS:***
