@@ -23,7 +23,7 @@ https://www.nbc.ca/content/dam/bnc/en/rates-and-analysis/economic-analysis/housi
 
 - Which province is the best province to purchase a house in for investment/personal purposes?-tableau
 
-- How does household income determine housing selection and location?-reg/dec tree
+- How does household income determine housing selection and location?-linear reg/dec tree
 
 - How does immigration effect the residential property price index across Canada?
 
