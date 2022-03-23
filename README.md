@@ -120,6 +120,6 @@ ________________
 
 - Dylan Ruff - Database 
 
-- Tanya Czeban - Github maintain, tableau, google slides
+- Tanya Czeban - Github maintain, dashboard, google slides
 
 webpage?
