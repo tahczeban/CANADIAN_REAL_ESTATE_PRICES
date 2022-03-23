@@ -21,13 +21,13 @@ https://www.nbc.ca/content/dam/bnc/en/rates-and-analysis/economic-analysis/housi
 
 ## **Questions with data:**
 
-- does immigration or population have a greater impact on housing prices provincially, in Canada?-multi linear regression
+- does immigration or population have a greater impact on housing prices provincially, in Canada?-2x linear regression
 
 - Which province is the best province to purchase a house in for investment/personal purposes?-tableau
 
-- How does household income determine housing selection and location?-linear reg/dec tree
+- How does household income determine housing selection and location?-linear reg/TBD
 
-- How does immigration effect the residential property price index across Canada?
+- How does immigration effect the residential property price index across Canada?TBD
 
 ## **We chose this question because:**
 
