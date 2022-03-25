@@ -85,7 +85,7 @@ Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6
    - Data type transfer: change string to interger/float 
 
 - Description of preliminary feature engineering and preliminary feature selection, including their decision-making process 
-Check the ML model by creating a multi variable linear models to predict the house price compare with the actual house price accruacy. And predict the next three years house price.
+   - Check the ML model by creating a multi variable linear models to predict the house price compare with the actual house price accruacy. And predict the next three years house price.
 
 - Description of how data was split into training and testing sets
 
