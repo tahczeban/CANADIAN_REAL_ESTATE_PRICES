@@ -74,7 +74,7 @@ For this Deliverable.....
 
 Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6dQAZWPwopah6UY30V5wysAfAc/edit?usp=sharing
 
-## **ML Model: decision tree with clusters**
+
 
  
 ![image](https://user-images.githubusercontent.com/92655991/160147752-0dd727cd-4518-4f3a-bcef-2042e788dbec.png)
