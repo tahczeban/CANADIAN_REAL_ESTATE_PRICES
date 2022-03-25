@@ -88,10 +88,13 @@ Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6
    - Check the ML model by creating a multi variable linear models to predict the house price compare with the actual house price accruacy. And predict the next three years house price.
 
 - Description of how data was split into training and testing sets
-
+   - Take each province as a group, for a total of 10 groups. In 2015, 5 selected characteristics were analyzed to derive the impact (correlation) of each characteristic on house prices. and list the corresponding graphs (heatmaps, scatterplots, histograms)
 - Explanation of model choice, including limitations and benefits 
-   - Limitation:
-   - Benefits:
+   - Limitation 
+     - The model can only show the effects of selected features and cannot analyze factors that were not selected.
+   - Benefits 
+     - Visually show the impact of each factor on house prices
+     - Verify that these factors affect house prices to the same extent each year
 
 
 ## **Database**
