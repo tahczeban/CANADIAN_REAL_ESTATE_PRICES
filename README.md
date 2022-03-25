@@ -74,9 +74,26 @@ For this Deliverable.....
 
 Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6dQAZWPwopah6UY30V5wysAfAc/edit?usp=sharing
 
-## **ML Model: decision tree with clusters**
+## **ML Model**
 
- 
+ - Description of preliminary data preprocessing
+ - Data cleaning: Remove the irrelevant observations from collect data, including the null value and duplicate data.  Check the outlier? (Box and whiker plot)
+- Data intergration: combime independent variable and dependent variable.
+   -	Independent variable: provincial population, crime rate, household income, climate, number of colleges
+   -	Dependent variable: house price 
+- Data reduction: reduce dimensionality if need using the reshape().
+- Data type transfer: change string to interger/float 
+
+- Description of preliminary feature engineering and preliminary feature selection, including their decision-making process 
+Check the ML model by creating a multi variable linear models to predict the house price compare with the actual house price accruacy. And predict the next three years house price.
+
+- Description of how data was split into training and testing sets
+
+- Explanation of model choice, including limitations and benefits 
+ - Limitation:
+ - Benefits:
+![image](https://user-images.githubusercontent.com/92655991/160148760-f48c1c2e-5f55-4c36-addb-f19246e518df.png)
+
 
 
 
