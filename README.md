@@ -58,6 +58,9 @@ https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4310002601
 
 - National Price Map
 https://www.crea.ca/housing-market-stats/national-price-map/
+
+- Incident-based crime statistics, by detailed violations, Canada, provinces, territories and Census Metropolitan Areas https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3510017701&pickMembers%5B0%5D=1.2&pickMembers%5B1%5D=2.1&cubeTimeFrame.startYear=2015&cubeTimeFrame.endYear=2019&referencePeriods=20150101%2C20190101
+
 ______________
 ***RESULTS:***
 
