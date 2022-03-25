@@ -78,17 +78,18 @@ Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6
 
  - Description of preliminary data preprocessing
    - Data cleaning: Remove the irrelevant observations from collect data, including the null value and duplicate data.  Check the outlier? (Box and whiker plot)
-   - Data intergration: combime independent variable and dependent variable.
+   - Data intergration: combime independent variable and dependent variable each year as one table (2015-2019)
      -	Independent variable: provincial population, crime rate, household income, climate, number of colleges
      -	Dependent variable: house price 
-   - Data reduction: reduce dimensionality if need using the reshape().
-   - Data type transfer: change string to interger/float 
+   - Data reduction: reduce dimensionality (reshape/scale)
+   - Data type transfer: change string to float type
 
 - Description of preliminary feature engineering and preliminary feature selection, including their decision-making process 
-   - Check the ML model by creating a multi variable linear models to predict the house price compare with the actual house price accruacy. And predict the next three years house price.
+   - Take each province as a group, for a total of 10 groups. In 2015, 5 selected characteristics were analyzed to derive the impact (correlation) of each characteristic on house prices. and list the corresponding graphs (heatmaps, scatterplots, histograms)
 
 - Description of how data was split into training and testing sets
-   - Take each province as a group, for a total of 10 groups. In 2015, 5 selected characteristics were analyzed to derive the impact (correlation) of each characteristic on house prices. and list the corresponding graphs (heatmaps, scatterplots, histograms)
+   - Two years of data are used as the training set, and the remaining three years are used as the test set. Check whether the impact of each year's characteristics on housing prices has changed significantly, or remains at a stable level.
+   
 - Explanation of model choice, including limitations and benefits 
    - Limitation 
      - The model can only show the effects of selected features and cannot analyze factors that were not selected.
