@@ -92,10 +92,6 @@ Check the ML model by creating a multi variable linear models to predict the hou
 - Explanation of model choice, including limitations and benefits 
    - Limitation:
    - Benefits:
-![image](https://user-images.githubusercontent.com/92655991/160148760-f48c1c2e-5f55-4c36-addb-f19246e518df.png)
-
-
-
 
 
 ## **Database**
