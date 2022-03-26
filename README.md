@@ -77,26 +77,28 @@ Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6
 ## **ML Model**
 
  - Description of preliminary data preprocessing
-   - Data cleaning: Remove the irrelevant observations from collect data, including the null value and duplicate data.  Check the outlier? (Box and whiker plot)
+   - Data cleaning: Remove the irrelevant observations from collect data, including the null value and duplicate data.  Check the outlier? (Box and whisker plot)
    - Data intergration: combime independent variable and dependent variable each year as one table (2015-2019)
-     -	Independent variable: provincial population, crime rate, household income, climate, number of colleges
+     -	Independent variable: provincial population, crime rate, household income, greenhouse emission, number of colleges
      -	Dependent variable: house price 
    - Data reduction: reduce dimensionality (reshape/scale)
    - Data type transfer: change string to float type
 
 - Description of preliminary feature engineering and preliminary feature selection, including their decision-making process 
-   - Take each province as a group, for a total of 10 groups. In 2015, 5 selected characteristics were analyzed to derive the impact (correlation) of each characteristic on house prices. and list the corresponding graphs (heatmaps, scatterplots, histograms)
+   - Take each line as a group, for a total of 50 groups. In 2015, 5 selected characteristics were analyzed to derive each characteristic's impact (correlation) on house prices. and list the corresponding graphs (heatmaps, scatterplots, histograms)
 
 - Description of how data was split into training and testing sets
-   - Two years of data are used as the training set, and the remaining three years are used as the test set. Check whether the impact of each year's characteristics on housing prices has changed significantly, or remains at a stable level.
+   - Two years of data are used as the training set, and the remaining three years are used as the test set. Check whether the impact of each year's characteristics on housing prices has changed significantly or remains at a stable level.
    
 - Explanation of model choice, including limitations and benefits 
-   - Limitation 
-     - The model can only show the effects of selected features and cannot analyze factors that were not selected.
-   - Benefits 
-     - Visually show the impact of each factor on house prices
-     - Verify that these factors affect house prices to the same extent each year
-
+  - Model: multi-variable regression
+  - Description: the outcome of the analysis is continuous by each year to figure out the different variables that affect the house price. Therefore, we use the supervised learning method. In addition, our team discovered ten provinces. Each province has 5 of the same factors that affect house prices each year, so multi-variable linear regression can help us analyze the results.
+  -	Limitation
+    -	The model can only show the effects of selected features and cannot analyze factors that were not selected.
+    -	It is challenging to model nonlinear data or polynomial regression with the correlation between data features.
+  -	Benefits
+    -	Visually show the impact of each element on house prices
+    -	Verify if these factors affect house prices to the same extent each year
 
 ## **Database**
 Postgres and SQL, MongoDB
