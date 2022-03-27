@@ -102,7 +102,7 @@ Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6
 
 ## **Database**
 Postgres and SQL, MongoDB
-
+s
 
 ## **Vizualizations** 
 Tableau, graphs, matrices, confusion matrix, Google Slides, Python/Vsc, Pandas
