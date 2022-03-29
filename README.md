@@ -17,6 +17,7 @@ ________________
 ***OVERVIEW:***
 
 The motivation for this project is to ultimately integrate all of the knowledge obtained and pertain it to real life situations utilizing statistics, data (pre)processing and Machine Learning (ML) procedures to create relevent and predictive models regarding this topic. The final model will be presented utilizing vizualizations for ease of conveying the aforementioned. A collaborative effort is being initiated to consider the topic of housing price indices, income, availability, and immigration across Canada, as this is a pertinent and essential topic among people in this day and age! 2011-2019
+
 https://www.nbc.ca/content/dam/bnc/en/rates-and-analysis/economic-analysis/housing-affordability.pdf
 
 ## **Questions with data:**
@@ -28,6 +29,14 @@ https://www.nbc.ca/content/dam/bnc/en/rates-and-analysis/economic-analysis/housi
 - How does household income determine housing selection and location?-linear reg/TBD
 
 - How does immigration effect the residential property price index across Canada?TBD
+
+## **Additional Questions:**
+
+- How does crime rates effect provincial population/housing prices?
+
+- How does secondary school availability effect population/house prices?
+
+- How does provincial greenhouse gas effect population/house prices?
 
 ## **We chose this question because:**
 
@@ -61,7 +70,11 @@ https://www.crea.ca/housing-market-stats/national-price-map/
 
 - Incident-based crime statistics, by detailed violations, Canada, provinces, territories and Census Metropolitan Areas https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3510017701&pickMembers%5B0%5D=1.2&pickMembers%5B1%5D=2.1&cubeTimeFrame.startYear=2015&cubeTimeFrame.endYear=2019&referencePeriods=20150101%2C20190101
 
-______________
+- Number of Provincial Educational Institutions
+https://www.cicic.ca/869/RepertoireEtablissements.aspx?sortcode=2.25.26.26.27.28&p=1%2c2%2c3%2c4%2c5%2c6%2c7%2c13%2c8%2c9%2c10%2c11%2c12&t=1%2c2
+
+- Physical flow account for greenhouse gas emissions, Frequency: Annual, Table: 38-10-0097-01 (formerly CANSIM 153-0114) Release date: 2021-12-13, Geography: Canada, Province or territory: 	https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3810009701		
+________
 ***RESULTS:***
 
 ***DELIVERABLE 1***
@@ -70,9 +83,26 @@ The results for Deliverable 1 encompass team collaboration via slack and with th
 
 ***DELIVERABLE 2***
 
-For this Deliverable.....
+For this Deliverable, there will be augmentations for 5 requirements:
+1) PRESENTATION: with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
 
-Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6dQAZWPwopah6UY30V5wysAfAc/edit?usp=sharing
+- Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6dQAZWPwopah6UY30V5wysAfAc/edit?usp=sharing
+Links to scribblemaps:
+
+- Interactive Map of Ranked Provincial Populations (2015-2019)
+ https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0qDbu9-bN8FImiDovtxHWmCMPVT0wdCKbbPEdYf9tBoCOXUQAvD_BwE#/id=lErWy8Ic1v&lat=56.70160853&lng=-98.30477881&z=4&t=custom_style
+
+- Interactive Map of Provincial House Prices (2015-2019)
+
+https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0qDbu9-bN8FImiDovtxHWmCMPVT0wdCKbbPEdYf9tBoCOXUQAvD_BwE#/id=JCrtVfTC3R&lat=53.797534&lng=-94.67929053&z=4&t=custom_style
+
+2) GitHub: working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person
+
+3) ML model: preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits
+
+4) DB: fully integrated DB connecting to the model, 1+ joinsone connection string (SQLAalchemy/PyMongo), updated ERD if SQL
+
+5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description
 
 ## **ML Model**
 
@@ -101,11 +131,12 @@ Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6
     -	Verify if these factors affect house prices to the same extent each year
 
 ## **Database**
-Postgres and SQL, MongoDB
-s
+Postgres and SQL
 
 ## **Vizualizations** 
-Tableau, graphs, matrices, confusion matrix, Google Slides, Python/Vsc, Pandas
+Tableau, Scribblemaps, Google Slides, Python/Vsc, Pandas
+
+
 
 ________________
 ________________
