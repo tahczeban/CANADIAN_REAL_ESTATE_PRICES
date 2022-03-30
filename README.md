@@ -47,6 +47,12 @@ https://www.nbc.ca/content/dam/bnc/en/rates-and-analysis/economic-analysis/housi
 - municipal/national housing: trending if housing supply meets demands
 
 
+
+
+
+
+
+
 ## **Data Sources**
 
 - Residential property price index, quarterly 
