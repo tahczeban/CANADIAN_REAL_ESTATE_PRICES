@@ -47,6 +47,19 @@ https://www.nbc.ca/content/dam/bnc/en/rates-and-analysis/economic-analysis/housi
 - municipal/national housing: trending if housing supply meets demands
 
 
+## **UPDATED ERD**
+This updated ERD depicts the relational ties between the nine tables cleaned and  created in a Database in preparation for analysis. With the common denominators being year and province, etc it will be determined how crime rate, greenhouse emmisions, number of post secondary educational institutions, household income, immigration income and population, as well as educational institution tuition help to shape the choice of where to live and the effects on housing prices per province. The nine tables are as follows:
+
+1. avg_house_prices
+2. crime_rate
+3. educational_institutions
+4. greenhouse
+5. household_income
+6. immigration_median_income
+7. immigration_population
+8. tuition
+
+<img width="1440" alt="Updated ERD" src="https://user-images.githubusercontent.com/90135381/160885882-59ffcdde-f6e9-4f93-884b-3c9ca2f7120d.png">
 
 
 
@@ -90,6 +103,7 @@ The results for Deliverable 1 encompass team collaboration via slack and with th
 ***DELIVERABLE 2***
 
 For this Deliverable, there will be augmentations for 5 requirements:
+
 1) PRESENTATION: with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
 
 - Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6dQAZWPwopah6UY30V5wysAfAc/edit?usp=sharing
@@ -116,7 +130,7 @@ https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0
 
 3) ML model: preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits
 
-4) DB: fully integrated DB connecting to the model, 1+ joinsone connection string (SQLAalchemy/PyMongo), updated ERD if SQL
+4) DB: fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD
 
 5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description
 
@@ -125,7 +139,7 @@ https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0
  - Description of preliminary data preprocessing
    - Data cleaning: Remove the irrelevant observations from collect data, including the null value and duplicate data.  Check the outlier? (Box and whisker plot)
    - Data intergration: combime independent variable and dependent variable each year as one table (2015-2019)
-     -	Independent variable: provincial population, crime rate, household income, greenhouse emission, number of colleges
+     -	Independent variable: provincial population, crime rate, household income,   greenhouse emission, number of colleges
      -	Dependent variable: house price 
    - Data reduction: reduce dimensionality (reshape/scale)
    - Data type transfer: change string to float type
