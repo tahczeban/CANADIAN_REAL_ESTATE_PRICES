@@ -57,7 +57,7 @@ This updated ERD depicts the relational ties between the nine tables cleaned and
 5. household_income
 6. immigration_median_income
 7. immigration_population
-8. tuition
+8. tuition?
 
 <img width="1440" alt="Updated ERD" src="https://user-images.githubusercontent.com/90135381/160885882-59ffcdde-f6e9-4f93-884b-3c9ca2f7120d.png">
 
@@ -67,6 +67,8 @@ This updated ERD depicts the relational ties between the nine tables cleaned and
 
 
 ## **Data Sources**
+
+Datasets were predominantly obtained from statscan, as well as other information sources, via a team collaborative effort. Please refer to the updated Dataset list below:
 
 - Residential property price index, quarterly 
 https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810016901
@@ -96,11 +98,11 @@ https://www.cicic.ca/869/RepertoireEtablissements.aspx?sortcode=2.25.26.26.27.28
 ________
 ***RESULTS:***
 
-***DELIVERABLE 1***
+***DELIVERABLE/SEGMENT: 1***
 
 The results for Deliverable 1 encompass team collaboration via slack and with the Teaching Staff, in order to accomplish the goals. GitHub establishment requirements will be met including: initialization of an appropriate repository, addition of all branches and a README. Additionally, cleaning and pre-processing the data will be considered. A 'mockup' database will be included, as well as a potential 'mockup' ML model. Lastly, an example ERD will be included for this submission to meet all requirements. A SCRUM method of approach will be contemplated in order to attain all goals with optimal results.
 
-***DELIVERABLE 2***
+***DELIVERABLE/SEGMENT: 2***
 
 For this Deliverable, there will be augmentations for 5 requirements:
 
@@ -136,7 +138,8 @@ https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0
 
 ## **ML Model**
 
- - Description of preliminary data preprocessing
+ - Description of preliminary data preprocessing and analysis:
+
    - Data cleaning: Remove the irrelevant observations from collect data, including the null value and duplicate data.  Check the outlier? (Box and whisker plot)
    - Data intergration: combime independent variable and dependent variable each year as one table (2015-2019)
      -	Independent variable: provincial population, crime rate, household income,   greenhouse emission, number of colleges
@@ -161,13 +164,34 @@ https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0
     -	Verify if these factors affect house prices to the same extent each year
 
 ## **Database**
-Postgres and SQL
+The DataBase was completed via Postgres and SQL, along with the ERD.
 
 ## **Vizualizations** 
 Tableau, Scribblemaps, Google Slides, Python/Vsc, Pandas
 
+Published Tableau blueprint @ https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/mockgroup10Dashboard?publish=yes
 
 
+***DELIVERABLE/SEGMENT: 3***
+1) PRESENTATION:with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
+ADD: a more thorough description of the analysis, technologies/languages/tools and algorithms with updated slides 
+
+2) GitHub: working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person
+ADD: most of the code for ML, updated README with images/updated links, 4 commits per person
+
+3) ML model: preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits
+ADD: explanation in changes of model choice from last deliverable/segment, descriv=be training/additional training, completion and description of accuracy score
+
+4) DB: fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD 
+ADD: ensure DB is connectable and up to date 
+
+5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description
+ADD: images/data from ML model, 1+ interative element(s)
+
+
+***DELIVERABLE/SEGMENT: 4***
+
+-Final Details-group-TBD
 ________________
 ________________
 
@@ -183,6 +207,6 @@ ________________
 
 - Dylan Ruff - Database 
 
-- Tanya Czeban - Github maintain, dashboard, google slides
+- Tanya Czeban - Github, Dashboard, Google Slides
 
 webpage?
