@@ -188,6 +188,7 @@ ADD: ensure DB is connectable and up to date
 5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description
 ADD: images/data from ML model, 1+ interative element(s)
 
+6) EXTRA: Webpage (starter) file:///Users/tanyaczeban/Desktop/webpage/index.html
 
 ***DELIVERABLE/SEGMENT: 4***
 
@@ -207,6 +208,6 @@ ________________
 
 - Dylan Ruff - Database 
 
-- Tanya Czeban - Github, Dashboard, Google Slides
+- Tanya Czeban - Github, Dashboard, Google Slides, Webpage
 
-webpage?
+
