@@ -17,6 +17,7 @@ ________________
 ***OVERVIEW:***
 
 The motivation for this project is to ultimately integrate all of the knowledge obtained and pertain it to real life situations utilizing statistics, data (pre)processing and Machine Learning (ML) procedures to create relevent and predictive models regarding this topic. The final model will be presented utilizing vizualizations for ease of conveying the aforementioned. A collaborative effort is being initiated to consider the topic of housing price indices, income, availability, and immigration across Canada, as this is a pertinent and essential topic among people in this day and age! 2011-2019
+
 https://www.nbc.ca/content/dam/bnc/en/rates-and-analysis/economic-analysis/housing-affordability.pdf
 
 ## **Questions with data:**
@@ -29,6 +30,14 @@ https://www.nbc.ca/content/dam/bnc/en/rates-and-analysis/economic-analysis/housi
 
 - How does immigration effect the residential property price index across Canada?TBD
 
+## **Additional Questions:**
+
+- How does crime rates effect provincial population/housing prices?
+
+- How does secondary school availability effect population/house prices?
+
+- How does provincial greenhouse gas effect population/house prices?
+
 ## **We chose this question because:**
 
 - affordability concerns for first-time buyers/younger adults
@@ -36,6 +45,25 @@ https://www.nbc.ca/content/dam/bnc/en/rates-and-analysis/economic-analysis/housi
 - population alterations and migration trends across Canada
 
 - municipal/national housing: trending if housing supply meets demands
+
+
+## **UPDATED ERD**
+This updated ERD depicts the relational ties between the nine tables cleaned and  created in a Database in preparation for analysis. With the common denominators being year and province, etc it will be determined how crime rate, greenhouse emmisions, number of post secondary educational institutions, household income, immigration income and population, as well as educational institution tuition help to shape the choice of where to live and the effects on housing prices per province. The nine tables are as follows:
+
+1. avg_house_prices
+2. crime_rate
+3. educational_institutions
+4. greenhouse
+5. household_income
+6. immigration_median_income
+7. immigration_population
+8. tuition
+
+<img width="1440" alt="Updated ERD" src="https://user-images.githubusercontent.com/90135381/160885882-59ffcdde-f6e9-4f93-884b-3c9ca2f7120d.png">
+
+
+
+
 
 
 ## **Data Sources**
@@ -58,7 +86,14 @@ https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4310002601
 
 - National Price Map
 https://www.crea.ca/housing-market-stats/national-price-map/
-______________
+
+- Incident-based crime statistics, by detailed violations, Canada, provinces, territories and Census Metropolitan Areas https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3510017701&pickMembers%5B0%5D=1.2&pickMembers%5B1%5D=2.1&cubeTimeFrame.startYear=2015&cubeTimeFrame.endYear=2019&referencePeriods=20150101%2C20190101
+
+- Number of Provincial Educational Institutions
+https://www.cicic.ca/869/RepertoireEtablissements.aspx?sortcode=2.25.26.26.27.28&p=1%2c2%2c3%2c4%2c5%2c6%2c7%2c13%2c8%2c9%2c10%2c11%2c12&t=1%2c2
+
+- Physical flow account for greenhouse gas emissions, Frequency:?Annual, Table: 38-10-0097-01 (formerly CANSIM?153-0114) Release date: 2021-12-13, Geography: Canada, Province or territory: 	https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3810009701		
+________
 ***RESULTS:***
 
 ***DELIVERABLE 1***
@@ -67,43 +102,71 @@ The results for Deliverable 1 encompass team collaboration via slack and with th
 
 ***DELIVERABLE 2***
 
-For this Deliverable.....
+For this Deliverable, there will be augmentations for 5 requirements:
 
-Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6dQAZWPwopah6UY30V5wysAfAc/edit?usp=sharing
+1) PRESENTATION: with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
 
-## **ML Model: decision tree with clusters**
+- Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6dQAZWPwopah6UY30V5wysAfAc/edit?usp=sharing
+Links to scribblemaps:
 
-- Description of preliminary data preprocessing
-  - value_counts, delete nulls, make appropriate DF¡¯s
+- Interactive Map of Ranked Provincial Populations (2015-2019)
 
-  - Create OneHotEncoder
+https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0qDbu9-bN8FImiDovtxHWmCMPVT0wdCKbbPEdYf9tBoCOXUQAvD_BwE#/id=lErWy8Ic1v&lat=56.70160853&lng=-98.30477881&z=4&t=custom_style
 
-  - Fit encoder and produce encoded DF
+<img width="1440" alt="Interactive Provincial map with Populations (2015-2019)" src="https://user-images.githubusercontent.com/90135381/160724888-714fc065-a9e4-4c3c-8bc7-ab0301ed2039.png">
 
-  - Rename encoded columns
 
-  - Merge DF¡¯s
+- Interactive Map of Provincial House Prices (2015-2019)
 
-  - Standardize Data
 
-  - Deep neural network coding with hidden layers
+https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0qDbu9-bN8FImiDovtxHWmCMPVT0wdCKbbPEdYf9tBoCOXUQAvD_BwE#/id=JCrtVfTC3R&lat=53.797534&lng=-94.67929053&z=4&t=custom_style
 
-  - Elbow curve for cluster determination
 
-  - stats?: mean, median, mode, SD, variance, accuracy-potential outliers to remove to improve ML model?
-- Description of preliminary feature engineering and preliminary feature selection, including their decision-making process
+<img width="1440" alt="Screen Shot 2022-03-28 at 3 25 18 PM" src="https://user-images.githubusercontent.com/90135381/160724911-23a5784b-bb89-487e-8f81-6e1c6a9dcc80.png">
+
+
+
+2) GitHub: working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person
+
+3) ML model: preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits
+
+4) DB: fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD
+
+5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description
+
+## **ML Model**
+
+ - Description of preliminary data preprocessing
+   - Data cleaning: Remove the irrelevant observations from collect data, including the null value and duplicate data.  Check the outlier? (Box and whisker plot)
+   - Data intergration: combime independent variable and dependent variable each year as one table (2015-2019)
+     -	Independent variable: provincial population, crime rate, household income,   greenhouse emission, number of colleges
+     -	Dependent variable: house price 
+   - Data reduction: reduce dimensionality (reshape/scale)
+   - Data type transfer: change string to float type
+
+- Description of preliminary feature engineering and preliminary feature selection, including their decision-making process 
+   - Take each line as a group, for a total of 50 groups. In 2015, 5 selected characteristics were analyzed to derive each characteristic's impact (correlation) on house prices. and list the corresponding graphs (heatmaps, scatterplots, histograms)
+
 - Description of how data was split into training and testing sets
-- Explanation of model choice, including limitations and benefits
-  -linear regression model
-
-
+   - Two years of data are used as the training set, and the remaining three years are used as the test set. Check whether the impact of each year's characteristics on housing prices has changed significantly or remains at a stable level.
+   
+- Explanation of model choice, including limitations and benefits 
+  - Model: multi-variable regression
+  - Description: the outcome of the analysis is continuous by each year to figure out the different variables that affect the house price. Therefore, we use the supervised learning method. In addition, our team discovered ten provinces. Each province has 5 of the same factors that affect house prices each year, so multi-variable linear regression can help us analyze the results.
+  -	Limitation
+    -	The model can only show the effects of selected features and cannot analyze factors that were not selected.
+    -	It is challenging to model nonlinear data or polynomial regression with the correlation between data features.
+  -	Benefits
+    -	Visually show the impact of each element on house prices
+    -	Verify if these factors affect house prices to the same extent each year
 
 ## **Database**
-Postgres and SQL, MongoDB
-
+Postgres and SQL
 
 ## **Vizualizations** 
-Tableau, graphs, matrices, confusion matrix, Google Slides, Python/Vsc, Pandas
+Tableau, Scribblemaps, Google Slides, Python/Vsc, Pandas
+
+
 
 ________________
 ________________
