@@ -136,6 +136,9 @@ https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0
 
 5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description
 
+<img width="1225" alt="Dashboard Blueprint" src="https://user-images.githubusercontent.com/90135381/161395739-6d1c9f81-a7e3-4922-8ddd-43dc7f50768f.png">
+
+
 ## **ML Model**
 
  - Description of preliminary data preprocessing and analysis:
