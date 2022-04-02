@@ -161,6 +161,7 @@ CREATE TABLE household_income (
 	Province VARCHAR(40) NOT NULL,
 	Income INT NOT NULL
 );
+
 CREATE TABLE population_analysis (
 	Year INT NOT NULL,
 	Province VARCHAR(40) NOT NULL,
@@ -171,6 +172,7 @@ CREATE TABLE avg_house_price (
 	Province VARCHAR(40) NOT NULL,
 	Avg_price BIGINT NOT NULL
 );
+
 CREATE TABLE crime_rate (
 	Year INT NOT NULL,
 	Province VARCHAR(40) NOT NULL,
@@ -185,6 +187,7 @@ CREATE TABLE immigration_median_income (
 	Province VARCHAR(40) NOT NULL,
 	immigrant_median_income BIGINT NOT NULL
 );
+
 CREATE TABLE immigration_population (
 	Year INT NOT NULL,
 	Province VARCHAR(40) NOT NULL,
@@ -196,6 +199,7 @@ CREATE TABLE province_household_income (
 	Province VARCHAR(40) NOT NULL,
 	income BIGINT NOT NULL,
 );
+
 CREATE TABLE tuition (
 	Year INT NOT NULL,
 	Province VARCHAR(40) NOT NULL,
@@ -203,6 +207,7 @@ CREATE TABLE tuition (
 	Education_type VARCHAR(40) NOT NULL,
 	Tuition BIGINT NOT NULL
 );
+
 
 
 5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description
