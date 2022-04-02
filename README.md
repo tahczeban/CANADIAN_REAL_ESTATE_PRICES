@@ -134,6 +134,26 @@ https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0
 
 3) ML model: preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits
 
+<img width="819" alt="Import Dep:House DF" src="https://user-images.githubusercontent.com/90135381/161396483-77684cf1-c5ab-4cb3-9e9f-5ab0762e6498.png">
+
+                      FIGURE: Imp Dep/House DF
+
+
+<img width="752" alt="House DF" src="https://user-images.githubusercontent.com/90135381/161396488-3f952a1e-765e-426a-844a-ff5f6a95f375.png">
+
+                     FIGURE: House DF
+
+
+<img width="817" alt="Scatterplots" src="https://user-images.githubusercontent.com/90135381/161396504-0fc56a24-acf4-4537-b69c-5db80c16d228.png">
+
+                    FIGURE: Scatterplots
+
+
+<img width="638" alt="Train:Test:MSE:R2" src="https://user-images.githubusercontent.com/90135381/161396492-306d84d4-b0c4-4f1d-aa1f-2e70ce41fefc.png">
+
+                   FIGURE: Train/Test/MSE/R2
+
+
 4) DB: fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD
 
 5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description
@@ -188,7 +208,7 @@ ADD: a more thorough description of the analysis, technologies/languages/tools a
 ADD: most of the code for ML, updated README with images/updated links, 4 commits per person
 
 3) ML model: preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits
-ADD: explanation in changes of model choice from last deliverable/segment, descriv=be training/additional training, completion and description of accuracy score
+ADD: explanation in changes of model choice from last deliverable/segment, describe training/additional training, completion and description of accuracy score
 
 4) DB: fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD 
 ADD: ensure DB is connectable and up to date 
