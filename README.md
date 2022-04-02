@@ -154,7 +154,56 @@ https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0
                    FIGURE: Train/Test/MSE/R2
 
 
-4) DB: fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD
+4) DB: fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD (above) with the schema/queries below:
+
+CREATE TABLE household_income (
+	Year INT NOT NULL,
+	Province VARCHAR(40) NOT NULL,
+	Income INT NOT NULL
+);
+CREATE TABLE population_analysis (
+	Year INT NOT NULL,
+	Province VARCHAR(40) NOT NULL,
+	population BIGINT NOT NULL
+);
+CREATE TABLE avg_house_price (
+	Year INT NOT NULL,
+	Province VARCHAR(40) NOT NULL,
+	Avg_price BIGINT NOT NULL
+);
+CREATE TABLE crime_rate (
+	Year INT NOT NULL,
+	Province VARCHAR(40) NOT NULL,
+	Avg_price BIGINT NOT NULL
+);
+CREATE TABLE educational_institutions (
+	Province VARCHAR(40) NOT NULL,
+	educational_institutions INT NOT NULL
+);
+CREATE TABLE immigration_median_income (
+	Year INT NOT NULL,
+	Province VARCHAR(40) NOT NULL,
+	immigrant_median_income BIGINT NOT NULL
+);
+CREATE TABLE immigration_population (
+	Year INT NOT NULL,
+	Province VARCHAR(40) NOT NULL,
+	immigrants BIGINT NOT NULL,
+	refugees BIGINT NOT NULL
+);
+CREATE TABLE province_household_income (
+	Year INT NOT NULL,
+	Province VARCHAR(40) NOT NULL,
+	income BIGINT NOT NULL,
+);
+CREATE TABLE tuition (
+	Year INT NOT NULL,
+	Province VARCHAR(40) NOT NULL,
+	Population_type VARCHAR(40) NOT NULL,
+	Education_type VARCHAR(40) NOT NULL,
+	Tuition BIGINT NOT NULL
+);
+
 
 5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description
 
