@@ -108,7 +108,9 @@ For this Deliverable, there will be augmentations for 5 requirements:
 
 1) PRESENTATION: with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
 
-- Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6dQAZWPwopah6UY30V5wysAfAc/edit#slide=id.g11f8c531d89_0_6
+- Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6dQAZWPwopah6UY30V5wysAfAc/edit#slide=id.g35f391192_065
+
+
 Links to scribblemaps:
 
 - Interactive Map of Ranked Provincial Populations (2015-2019)
