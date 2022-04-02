@@ -139,6 +139,9 @@ https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0
 <img width="1225" alt="Dashboard Blueprint" src="https://user-images.githubusercontent.com/90135381/161395739-6d1c9f81-a7e3-4922-8ddd-43dc7f50768f.png">
 
 
+https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/Preliminarygroup10Dashboard?publish=yes
+
+
 ## **ML Model**
 
  - Description of preliminary data preprocessing and analysis:
@@ -172,7 +175,7 @@ The DataBase was completed via Postgres and SQL, along with the ERD.
 ## **Vizualizations** 
 Tableau, Scribblemaps, Google Slides, Python/Vsc, Pandas
 
-Published Tableau blueprint @ https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/mockgroup10Dashboard?publish=yes
+Published Tableau blueprint @ https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/Preliminarygroup10Dashboard?publish=yes
 
 
 ***DELIVERABLE/SEGMENT: 3***
