@@ -48,6 +48,7 @@ https://www.nbc.ca/content/dam/bnc/en/rates-and-analysis/economic-analysis/housi
 
 
 ## **UPDATED ERD**
+
 This updated ERD depicts the relational ties between the nine tables cleaned and  created in a Database in preparation for analysis. With the common denominators being year and province, etc it will be determined how crime rate, greenhouse emmisions, number of post secondary educational institutions, household income, immigration income and population, as well as educational institution tuition help to shape the choice of where to live and the effects on housing prices per province. The nine tables are as follows:
 
 1. avg_house_prices
@@ -72,7 +73,7 @@ The results for Deliverable 1 encompass team collaboration via slack and with th
 
 For this Deliverable, there will be augmentations for 5 requirements:
 
-1) PRESENTATION: with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
+**1) PRESENTATION:** with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
 
 - Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6dQAZWPwopah6UY30V5wysAfAc/edit#slide=id.g35f391192_065
 
@@ -96,9 +97,37 @@ https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0
 
 
 
-2) GitHub: working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person
+**2) GitHub:** working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person
 
-3) ML model: preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits
+**3) ML model:** preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits
+
+## **ML Model**
+
+ - Description of preliminary data preprocessing and analysis:
+
+   - Data cleaning: Remove the irrelevant observations from collect data, including the null value and duplicate data.  
+   - Data intergration: on database process, we combime all independent variable and dependent variables in one table.
+     -	Independent variable: greenhouse emission, crime rate, immigrant population, Median Immigrant Wages, household income, provincial population.
+     -	Dependent variable: house price 
+   - Data reduction: reduce dimensionality using MinMaxScaler method.
+   - Data type transfer: change string to float type.
+
+- Description of preliminary feature engineering and preliminary feature selection, including their decision-making process 
+   - We choose the most common features influent house prices using the multi variables regression model to predict the 2020 house price. Also, verify the accuracy and mes of the model.
+
+- Description of how data was split into training and testing sets
+   - 80% of indepedent variables data as the training set, and the remaining 20% are used as the test set, in order to predict the house price for 2020.
+   
+- Explanation of model choice, including limitations and benefits 
+  - Model: multi-variables regression
+  - Description: Collected data house prices are continuous data, and this model helps us directly predict the future year house price in a specific range (2015-2019). 
+  -	Limitation
+    -	The model can only show the effects of selected features and cannot analyze factors that were not selected.
+    -	It is challenging to model nonlinear data or polynomial regression with the correlation between data features.
+  -	Benefits
+    -	Visually show the impact of each element on house prices
+    -	Verify if these factors affect house prices to the same extent each year
+
 
 <img width="819" alt="Import Dep:House DF" src="https://user-images.githubusercontent.com/90135381/161396483-77684cf1-c5ab-4cb3-9e9f-5ab0762e6498.png">
 
@@ -120,7 +149,29 @@ https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0
                    FIGURE: Train/Test/MSE/R2
 
 
-4) DB: fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD (above) with the schema/queries below:
+**4) DB:** 
+
+**UPDATED ERD**
+
+This updated ERD depicts the relational ties between the nine tables cleaned and  created in a Database in preparation for analysis. With the common denominators being year and province, etc it will be determined how crime rate, greenhouse emmisions, number of post secondary educational institutions, household income, immigration income and population, as well as educational institution tuition help to shape the choice of where to live and the effects on housing prices per province. The nine tables are as follows:
+
+1. avg_house_prices
+2. crime_rate
+3. educational_institutions
+4. greenhouse
+5. household_income
+6. immigration_median_income
+7. immigration_population
+8. tuition?
+
+<img width="1440" alt="Updated ERD" src="https://user-images.githubusercontent.com/90135381/160885882-59ffcdde-f6e9-4f93-884b-3c9ca2f7120d.png">
+fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD (above) with the schema/queries below:
+
+## **Database**
+
+The DataBase was completed via Postgres and SQL, along with the ERD. Please refer to link below:
+http://group10database.cakmngpixa6j.us-east-1.rds.amazonaws.com/
+
 
 CREATE TABLE household_income (
 	Year INT NOT NULL,
@@ -175,8 +226,9 @@ CREATE TABLE tuition (
 );
 
 
+**5) DASHBOARD:**
 
-5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description
+blueprint, storyboard on GoogleSlides, tools and interactive slides description
 
 <img width="1225" alt="Dashboard Blueprint" src="https://user-images.githubusercontent.com/90135381/161395739-6d1c9f81-a7e3-4922-8ddd-43dc7f50768f.png">
 
@@ -211,9 +263,6 @@ https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/Prelimin
     -	Visually show the impact of each element on house prices
     -	Verify if these factors affect house prices to the same extent each year
 
-## **Database**
-The DataBase was completed via Postgres and SQL, along with the ERD. Please refer to link below:
-http://group10database.cakmngpixa6j.us-east-1.rds.amazonaws.com/
 
 ## **Vizualizations** 
 Tableau, Scribblemaps, Google Slides, Python/Vsc, Pandas
