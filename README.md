@@ -60,41 +60,7 @@ This updated ERD depicts the relational ties between the nine tables cleaned and
 8. tuition?
 
 <img width="1440" alt="Updated ERD" src="https://user-images.githubusercontent.com/90135381/160885882-59ffcdde-f6e9-4f93-884b-3c9ca2f7120d.png">
-
-
-
-
-
-
-## **Data Sources**
-
-Datasets were predominantly obtained from statscan, as well as other information sources, via a team collaborative effort. Please refer to the updated Dataset list below:
-
-- Residential property price index, quarterly 
-https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810016901
-
-- Components of population change by census metropolitan area and census agglomeration, 2016 boundaries https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710013601
-
-- Total family income and characteristics of residential property owners by family type
-https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4610005101
-
-- Analytical house prices indicators （country)
-https://stats.oecd.org/Index.aspx?DataSetCode=HOUSE_PRICES#
-
-- Income of Immigrant tax-filers, by immigrant admission category and tax year, for Canada and provinces, 2019 constant dollars
-https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4310002601
-
-- Average house prices in Canada from 2014 to 2020 with a forecast up to 2022 with, by province https://www.statista.com/statistics/587661/average-house-prices-canada-by-province/
-
-- National Price Map
-https://www.crea.ca/housing-market-stats/national-price-map/
-
-- Incident-based crime statistics, by detailed violations, Canada, provinces, territories and Census Metropolitan Areas https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3510017701&pickMembers%5B0%5D=1.2&pickMembers%5B1%5D=2.1&cubeTimeFrame.startYear=2015&cubeTimeFrame.endYear=2019&referencePeriods=20150101%2C20190101
-
-- Number of Provincial Educational Institutions
-https://www.cicic.ca/869/RepertoireEtablissements.aspx?sortcode=2.25.26.26.27.28&p=1%2c2%2c3%2c4%2c5%2c6%2c7%2c13%2c8%2c9%2c10%2c11%2c12&t=1%2c2
-
-- Physical flow account for greenhouse gas emissions, Frequency: Annual, Table: 38-10-0097-01 (formerly CANSIM 153-0114) Release date: 2021-12-13, Geography: Canada, Province or territory: 	https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3810009701		
+	
 ________
 ***RESULTS:***
 
@@ -253,6 +219,35 @@ Tableau, Scribblemaps, Google Slides, Python/Vsc, Pandas
 
 Published Tableau blueprint @ https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/Preliminarygroup10Dashboard?publish=yes
 
+## **Data Sources**
+
+Datasets were predominantly obtained from statscan, as well as other information sources, via a team collaborative effort. Please refer to the updated Dataset list below:
+
+- Residential property price index, quarterly 
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810016901
+
+- Components of population change by census metropolitan area and census agglomeration, 2016 boundaries https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710013601
+
+- Total family income and characteristics of residential property owners by family type
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4610005101
+
+- Analytical house prices indicators （country)
+https://stats.oecd.org/Index.aspx?DataSetCode=HOUSE_PRICES#
+
+- Income of Immigrant tax-filers, by immigrant admission category and tax year, for Canada and provinces, 2019 constant dollars
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4310002601
+
+- Average house prices in Canada from 2014 to 2020 with a forecast up to 2022 with, by province https://www.statista.com/statistics/587661/average-house-prices-canada-by-province/
+
+- National Price Map
+https://www.crea.ca/housing-market-stats/national-price-map/
+
+- Incident-based crime statistics, by detailed violations, Canada, provinces, territories and Census Metropolitan Areas https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3510017701&pickMembers%5B0%5D=1.2&pickMembers%5B1%5D=2.1&cubeTimeFrame.startYear=2015&cubeTimeFrame.endYear=2019&referencePeriods=20150101%2C20190101
+
+- Number of Provincial Educational Institutions
+https://www.cicic.ca/869/RepertoireEtablissements.aspx?sortcode=2.25.26.26.27.28&p=1%2c2%2c3%2c4%2c5%2c6%2c7%2c13%2c8%2c9%2c10%2c11%2c12&t=1%2c2
+
+- Physical flow account for greenhouse gas emissions, Frequency: Annual, Table: 38-10-0097-01 (formerly CANSIM 153-0114) Release date: 2021-12-13, Geography: Canada, Province or territory: 	https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3810009701	
 
 ***DELIVERABLE/SEGMENT: 3***
 1) PRESENTATION:with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
