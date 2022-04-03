@@ -47,21 +47,6 @@ https://www.nbc.ca/content/dam/bnc/en/rates-and-analysis/economic-analysis/housi
 - municipal/national housing: trending if housing supply meets demands
 
 
-## **UPDATED ERD**
-
-This updated ERD depicts the relational ties between the nine tables cleaned and  created in a Database in preparation for analysis. With the common denominators being year and province, etc it will be determined how crime rate, greenhouse emmisions, number of post secondary educational institutions, household income, immigration income and population, as well as educational institution tuition help to shape the choice of where to live and the effects on housing prices per province. The nine tables are as follows:
-
-1. avg_house_prices
-2. crime_rate
-3. educational_institutions
-4. greenhouse
-5. household_income
-6. immigration_median_income
-7. immigration_population
-8. tuition?
-
-<img width="1440" alt="Updated ERD" src="https://user-images.githubusercontent.com/90135381/160885882-59ffcdde-f6e9-4f93-884b-3c9ca2f7120d.png">
-	
 ________
 ***RESULTS:***
 
@@ -235,33 +220,6 @@ blueprint, storyboard on GoogleSlides, tools and interactive slides description
 
 https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/Preliminarygroup10Dashboard?publish=yes
 
-
-## **ML Model**
-
- - Description of preliminary data preprocessing and analysis:
-
-   - Data cleaning: Remove the irrelevant observations from collect data, including the null value and duplicate data.  
-   - Data intergration: on database process, we combime all independent variable and dependent variables in one table.
-     -	Independent variable: greenhouse emission, crime rate, immigrant population, Median Immigrant Wages, household income, provincial population.
-     -	Dependent variable: house price 
-   - Data reduction: reduce dimensionality using MinMaxScaler method.
-   - Data type transfer: change string to float type.
-
-- Description of preliminary feature engineering and preliminary feature selection, including their decision-making process 
-   - We choose the most common features influent house prices using the multi variables regression model to predict the 2020 house price. Also, verify the accuracy and mes of the model.
-
-- Description of how data was split into training and testing sets
-   - 80% of indepedent variables data as the training set, and the remaining 20% are used as the test set, in order to predict the house price for 2020.
-   
-- Explanation of model choice, including limitations and benefits 
-  - Model: multi-variables regression
-  - Description: Collected data house prices are continuous data, and this model helps us directly predict the future year house price in a specific range (2015-2019). 
-  -	Limitation
-    -	The model can only show the effects of selected features and cannot analyze factors that were not selected.
-    -	It is challenging to model nonlinear data or polynomial regression with the correlation between data features.
-  -	Benefits
-    -	Visually show the impact of each element on house prices
-    -	Verify if these factors affect house prices to the same extent each year
 
 
 ## **Vizualizations** 
