@@ -222,22 +222,22 @@ https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/Prelimin
 
  - Description of preliminary data preprocessing and analysis:
 
-   - Data cleaning: Remove the irrelevant observations from collect data, including the null value and duplicate data.  Check the outlier? (Box and whisker plot)
-   - Data intergration: combime independent variable and dependent variable each year as one table (2015-2019)
-     -	Independent variable: provincial population, crime rate, household income,   greenhouse emission, number of colleges
+   - Data cleaning: Remove the irrelevant observations from collect data, including the null value and duplicate data.  
+   - Data intergration: on database process, we combime all independent variable and dependent variables in one table.
+     -	Independent variable: greenhouse emission, crime rate, immigrant population, Median Immigrant Wages, household income, provincial population.
      -	Dependent variable: house price 
-   - Data reduction: reduce dimensionality (reshape/scale)
-   - Data type transfer: change string to float type
+   - Data reduction: reduce dimensionality using MinMaxScaler method.
+   - Data type transfer: change string to float type.
 
 - Description of preliminary feature engineering and preliminary feature selection, including their decision-making process 
-   - Take each line as a group, for a total of 50 groups. In 2015, 5 selected characteristics were analyzed to derive each characteristic's impact (correlation) on house prices. and list the corresponding graphs (heatmaps, scatterplots, histograms)
+   - We choose the most common features influent house prices using the multi variables regression model to predict the 2020 house price. Also, verify the accuracy and mes of the model.
 
 - Description of how data was split into training and testing sets
-   - Two years of data are used as the training set, and the remaining three years are used as the test set. Check whether the impact of each year's characteristics on housing prices has changed significantly or remains at a stable level.
+   - 80% of indepedent variables data as the training set, and the remaining 20% are used as the test set, in order to predict the house price for 2020.
    
 - Explanation of model choice, including limitations and benefits 
-  - Model: multi-variable regression
-  - Description: the outcome of the analysis is continuous by each year to figure out the different variables that affect the house price. Therefore, we use the supervised learning method. In addition, our team discovered ten provinces. Each province has 5 of the same factors that affect house prices each year, so multi-variable linear regression can help us analyze the results.
+  - Model: multi-variables regression
+  - Description: Collected data house prices are continuous data, and this model helps us directly predict the future year house price in a specific range (2015-2019). 
   -	Limitation
     -	The model can only show the effects of selected features and cannot analyze factors that were not selected.
     -	It is challenging to model nonlinear data or polynomial regression with the correlation between data features.
