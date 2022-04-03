@@ -212,7 +212,8 @@ https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/Prelimin
     -	Verify if these factors affect house prices to the same extent each year
 
 ## **Database**
-The DataBase was completed via Postgres and SQL, along with the ERD.
+The DataBase was completed via Postgres and SQL, along with the ERD. Please refer to link below:
+http://group10database.cakmngpixa6j.us-east-1.rds.amazonaws.com/
 
 ## **Vizualizations** 
 Tableau, Scribblemaps, Google Slides, Python/Vsc, Pandas
