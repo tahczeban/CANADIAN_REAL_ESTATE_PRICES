@@ -63,6 +63,11 @@ For this Deliverable, there will be augmentations for 5 requirements:
 - Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6dQAZWPwopah6UY30V5wysAfAc/edit#slide=id.g35f391192_065
 
 
+<img width="1440" alt="Presentation" src="https://user-images.githubusercontent.com/90135381/161447429-2e0a0aee-741a-4c87-8e6d-433d6955d560.png">
+
+
+
+
 Links to scribblemaps:
 
 - Interactive Map of Ranked Provincial Populations (2015-2019)
