@@ -171,11 +171,13 @@ CREATE TABLE household_income (
 	Province VARCHAR(40) NOT NULL,
 	Income INT NOT NULL
 );
+
 CREATE TABLE population_analysis (
 	Year INT NOT NULL,
 	Province VARCHAR(40) NOT NULL,
 	population BIGINT NOT NULL
 );
+
 CREATE TABLE avg_house_price (
 	Year INT NOT NULL,
 	Province VARCHAR(40) NOT NULL,
@@ -186,21 +188,25 @@ CREATE TABLE crime_rate (
 	Province VARCHAR(40) NOT NULL,
 	Avg_price BIGINT NOT NULL
 );
+
 CREATE TABLE educational_institutions (
 	Province VARCHAR(40) NOT NULL,
 	educational_institutions INT NOT NULL
 );
+
 CREATE TABLE immigration_median_income (
 	Year INT NOT NULL,
 	Province VARCHAR(40) NOT NULL,
 	immigrant_median_income BIGINT NOT NULL
 );
+
 CREATE TABLE immigration_population (
 	Year INT NOT NULL,
 	Province VARCHAR(40) NOT NULL,
 	immigrants BIGINT NOT NULL,
 	refugees BIGINT NOT NULL
 );
+
 CREATE TABLE province_household_income (
 	Year INT NOT NULL,
 	Province VARCHAR(40) NOT NULL,
@@ -213,12 +219,14 @@ CREATE TABLE tuition (
 	Education_type VARCHAR(40) NOT NULL,
 	Tuition BIGINT NOT NULL
 );
+
 CREATE TABLE greenhouse (
 	Year INT NOT NULL,
 	Province VARCHAR(40) NOT NULL,
 	Sector VARCHAR(40) NOT NULL,
 	Kilotonnes bigint NOT NULL
 );
+
 CREATE TABLE household_income (
 	Year INT NOT NULL,
 	Province VARCHAR(40) NOT NULL,
@@ -241,6 +249,7 @@ CREATE TABLE household_income (
 	household_income BIGINT NOT NULL,
 	population BIGINT NOT NULL
 );
+
 CREATE TABLE data_by_year_prov_totals (
 	year INT NOT NULL,
 	province VARCHAR(40) NOT NULL,
