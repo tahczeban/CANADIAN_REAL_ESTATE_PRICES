@@ -87,7 +87,7 @@ https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0
 
 
 
-**2) GitHub:** working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person. **Deliverable 2 difficulties:** actions to correct: request commits to be made on collaborator branches, with a pull request; avoid deleting files until permission is granted by file owner or grade has been obtained; only convey ownership of files completed by self; request README changes
+**2) GitHub:** working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person. **Deliverable 2 difficulties:** actions to correct: request commits to be made on collaborator branches, with a pull request as per rubric stipulations; avoid deleting files until permission is granted by file owner or grade has been obtained; only convey ownership of files completed by self; request README changes
 
 **3) ML model:** preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits
 
