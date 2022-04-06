@@ -62,9 +62,25 @@ CREATE TABLE household_income (
 	household_income BIGINT NOT NULL,
 	population BIGINT NOT NULL
 );
-
-select avg_house_price.year, avg_house_price.province, avg_price, income
-from avg_house_price
-left join household_income
-on avg_house_price.year = household_income.year
-and avg_house_price.province = household_income.province
+CREATE TABLE household_income (
+	Year INT NOT NULL,
+	Province VARCHAR(40) NOT NULL,
+	house_procies BIGINT NOT NULL,
+	kilotonnes BIGINT NOT NULL,
+	crime BIGINT NOT NULL,
+	immigration_totals BIGINT NOT NULL,
+	med_imm_wages BIGINT NOT NULL,
+	household_income BIGINT NOT NULL,
+	population BIGINT NOT NULL
+);
+CREATE TABLE data_by_year_prov_totals (
+	year INT NOT NULL,
+	province VARCHAR(40) NOT NULL,
+	house_prices BIGINT NOT NULL,
+	kilotonnes BIGINT NOT NULL,
+	crime BIGINT NOT NULL,
+	immigration_totals BIGINT NOT NULL,
+	med_imm_wages BIGINT NOT NULL,
+	household_income BIGINT NOT NULL,
+	population BIGINT NOT NULL,
+);

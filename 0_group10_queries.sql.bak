@@ -38,7 +38,7 @@ CREATE TABLE province_household_income (
 	Province VARCHAR(40) NOT NULL,
 	income BIGINT NOT NULL,
 );
-CREATE TABLE tuition (
+CREATE TABLE tuition ( 
 	Year INT NOT NULL,
 	Province VARCHAR(40) NOT NULL,
 	Population_type VARCHAR(40) NOT NULL,
@@ -62,3 +62,9 @@ CREATE TABLE household_income (
 	household_income BIGINT NOT NULL,
 	population BIGINT NOT NULL
 );
+
+select avg_house_price.year, avg_house_price.province, avg_price, income
+from avg_house_price
+left join household_income
+on avg_house_price.year = household_income.year
+and avg_house_price.province = household_income.province
