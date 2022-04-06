@@ -154,7 +154,9 @@ This updated ERD depicts the relational ties between the nine tables cleaned and
 7. immigration_population
 8. tuition?
 
-<img width="1440" alt="Updated ERD" src="https://user-images.githubusercontent.com/90135381/160885882-59ffcdde-f6e9-4f93-884b-3c9ca2f7120d.png">
+<img width="1440" alt="Screen Shot 2022-04-06 at 5 45 04 PM" src="https://user-images.githubusercontent.com/90135381/162077174-79a86e50-0de4-4466-abbd-81009dd11bfd.png">
+
+
 fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD (above) with the schema/queries below:
 
 ## **Database**
