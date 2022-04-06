@@ -52,7 +52,7 @@ ________________
 
 The results for Deliverable 1 encompass team collaboration via slack and with the Teaching Staff, in order to accomplish the goals. GitHub establishment requirements will be met including: initialization of an appropriate repository, addition of all branches and a README. Additionally, cleaning and pre-processing the data will be considered. A 'mockup' database will be included, as well as a potential 'mockup' ML model. Lastly, an example ERD will be included for this submission to meet all requirements. A SCRUM method of approach will be contemplated in order to attain all goals with optimal results.
 
-1)Presentation: outline with questions,mock models for DB and ML, visualizations
+1) Presentation: outline with questions,mock models for DB and ML, visualizations
 
 2) GitHub: working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person
 
