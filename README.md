@@ -87,7 +87,7 @@ https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0
 
 
 
-**2) GitHub:** working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person
+**2) GitHub:** working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person. **Deliverable 2 difficulties:** actions to correct: request commits to be made on collaborator branches, with a pull request; avoid deleting files until permission is granted by file owner or grade has been obtained; only convey ownership of files completed by self; request README changes
 
 **3) ML model:** preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits
 
@@ -225,6 +225,23 @@ blueprint, storyboard on GoogleSlides, tools and interactive slides description
 
 https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/Preliminarygroup10Dashboard?publish=yes
 
+***DELIVERABLE/SEGMENT: 3***
+1) PRESENTATION:with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
+ADD: a more thorough description of the analysis, technologies/languages/tools and algorithms with updated slides 
+
+2) GitHub: working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person
+ADD: most of the code for ML, updated README with images/updated links, 4 commits per person
+
+3) ML model: preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits
+ADD: explanation in changes of model choice from last deliverable/segment, describe training/additional training, completion and description of accuracy score
+
+4) DB: fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD 
+ADD: ensure DB is connectable and up to date 
+
+5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description
+ADD: images/data from ML model, 1+ interative element(s)
+
+6) EXTRA: Webpage (starter) file:///Users/tanyaczeban/Desktop/webpage/index.html
 
 
 ## **Vizualizations** 
@@ -262,23 +279,6 @@ https://www.cicic.ca/869/RepertoireEtablissements.aspx?sortcode=2.25.26.26.27.28
 
 - Physical flow account for greenhouse gas emissions, Frequency: Annual, Table: 38-10-0097-01 (formerly CANSIM 153-0114) Release date: 2021-12-13, Geography: Canada, Province or territory: 	https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3810009701	
 
-***DELIVERABLE/SEGMENT: 3***
-1) PRESENTATION:with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
-ADD: a more thorough description of the analysis, technologies/languages/tools and algorithms with updated slides 
-
-2) GitHub: working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person
-ADD: most of the code for ML, updated README with images/updated links, 4 commits per person
-
-3) ML model: preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits
-ADD: explanation in changes of model choice from last deliverable/segment, describe training/additional training, completion and description of accuracy score
-
-4) DB: fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD 
-ADD: ensure DB is connectable and up to date 
-
-5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description
-ADD: images/data from ML model, 1+ interative element(s)
-
-6) EXTRA: Webpage (starter) file:///Users/tanyaczeban/Desktop/webpage/index.html
 
 
 ***DELIVERABLE/SEGMENT: 4***
