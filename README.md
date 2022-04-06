@@ -19,8 +19,6 @@ ________________
 
 The motivation for this project is to ultimately integrate all of the knowledge obtained and pertain it to real life situations utilizing statistics, data (pre)processing and Machine Learning (ML) procedures to create relevent and predictive models regarding this topic. The final model will be presented utilizing vizualizations for ease of conveying the aforementioned. A collaborative effort is being initiated to consider the topic of housing price indices, income, availability, and immigration across Canada, as this is a pertinent and essential topic among people in this day and age! 2011-2019
 
-https://www.nbc.ca/content/dam/bnc/en/rates-and-analysis/economic-analysis/housing-affordability.pdf
-
 ## **Questions with data:**
 
 - does immigration or population have a greater impact on housing prices provincially, in Canada?
@@ -54,11 +52,24 @@ ________________
 
 The results for Deliverable 1 encompass team collaboration via slack and with the Teaching Staff, in order to accomplish the goals. GitHub establishment requirements will be met including: initialization of an appropriate repository, addition of all branches and a README. Additionally, cleaning and pre-processing the data will be considered. A 'mockup' database will be included, as well as a potential 'mockup' ML model. Lastly, an example ERD will be included for this submission to meet all requirements. A SCRUM method of approach will be contemplated in order to attain all goals with optimal results.
 
+1)Presentation: outline with questions,mock models for DB and ML, visualizations
+
+2) GitHub: working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person
+
+3) ML model: preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits
+
+4) DB: fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD
+
+5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description
+
 ***DELIVERABLE 2***
 
 For this Deliverable, there will be augmentations for 5 requirements:
 
-1) PRESENTATION: with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
+1) **PRESENTATION:** with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
+
+<img width="1384" alt="presentation" src="https://user-images.githubusercontent.com/90135381/162085451-7107296c-de76-4ea2-9b77-6c3ce5ab3bf6.png">
+
 
 - Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6dQAZWPwopah6UY30V5wysAfAc/edit?usp=sharing
 Links to scribblemaps:
@@ -78,17 +89,11 @@ https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0
 
 <img width="1440" alt="Screen Shot 2022-03-28 at 3 25 18 PM" src="https://user-images.githubusercontent.com/90135381/160724911-23a5784b-bb89-487e-8f81-6e1c6a9dcc80.png">
 
+2) **GitHub:** working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person. Add updates, visualizations for ML, DB, presentaion, dashboard
 
 
-2) GitHub: working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person
 
-3) ML model: preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits
-
-4) DB: fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD
-
-5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description
-
-## **ML Model**
+3) **ML Model:**
 
  - Description of preliminary data preprocessing
    - Data cleaning: Remove the irrelevant observations from collect data, including the null value and duplicate data.  Check the outlier? (Box and whisker plot)
@@ -99,26 +104,21 @@ https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0
    - Data type transfer: change string to float type
 
 - Description of preliminary feature engineering and preliminary feature selection, including their decision-making process 
-   - Take each line as a group, for a total of 50 groups. In 2015, 5 selected characteristics were analyzed to derive each characteristic's impact (correlation) on house prices. and list the corresponding graphs (heatmaps, scatterplots, histograms)
+   - Take each line as a group, for a total of 50 groups. In 2015, 5 selected characteristics were analyzed to derive each characteristic's impact 		(correlation) on house prices. and list the corresponding graphs (heatmaps, scatterplots, histograms)
 
 - Description of how data was split into training and testing sets
-   - Two years of data are used as the training set, and the remaining three years are used as the test set. Check whether the impact of each year's characteristics on housing prices has changed significantly or remains at a stable level.
+   - Two years of data are used as the training set, and the remaining three years are used as the test set. Check whether the impact of each year's 		characteristics on housing prices has changed significantly or remains at a stable level.
    
 - Explanation of model choice, including limitations and benefits 
   - Model: multi-variable regression
-  - Description: the outcome of the analysis is continuous by each year to figure out the different variables that affect the house price. Therefore, we use the supervised learning method. In addition, our team discovered ten provinces. Each province has 5 of the same factors that affect house prices each year, so multi-variable linear regression can help us analyze the results.
-  -	Limitation
+  - Description: the outcome of the analysis is continuous by each year to figure out the different variables that affect the house price. Therefore, we 	use the supervised learning method. In addition, our team discovered ten provinces. Each province has 5 of the same factors that affect house 		prices each year, so multi-variable linear regression can help us analyze the results.
+  -	Limitations:
     -	The model can only show the effects of selected features and cannot analyze factors that were not selected.
     -	It is challenging to model nonlinear data or polynomial regression with the correlation between data features.
-  -	Benefits
+  -	Benefits:
     -	Visually show the impact of each element on house prices
     -	Verify if these factors affect house prices to the same extent each year
 
-## **Database**
-Postgres and SQL
-
-## **Vizualizations** 
-Tableau, Scribblemaps, Google Slides, Python/Vsc, Pandas
 
 <img width="819" alt="Import Dep:House DF" src="https://user-images.githubusercontent.com/90135381/161396483-77684cf1-c5ab-4cb3-9e9f-5ab0762e6498.png">
 
@@ -142,11 +142,7 @@ Tableau, Scribblemaps, Google Slides, Python/Vsc, Pandas
 
 **4) DB:** 
 
-
 **UPDATED ERD**
-
-
-
 
 This updated ERD depicts the relational ties between the nine tables cleaned and  created in a Database in preparation for analysis. With the common denominators being year and province, etc it will be determined how crime rate, greenhouse emmisions, number of post secondary educational institutions, household income, immigration income and population, as well as educational institution tuition help to shape the choice of where to live and the effects on housing prices per province. The nine tables are as follows:
 
@@ -164,7 +160,7 @@ This updated ERD depicts the relational ties between the nine tables cleaned and
 
 fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD (above) with the schema/queries below:
 
-## **Database**
+**Database Schema/Query**
 
 The DataBase was completed via Postgres and SQL, along with the ERD. Please refer to link below:
 http://group10database.cakmngpixa6j.us-east-1.rds.amazonaws.com/
@@ -295,6 +291,9 @@ ADD: images/data from ML model, 1+ interative element(s)
 
 6) EXTRA: Webpage (starter) file:///Users/tanyaczeban/Desktop/webpage/index.html
 
+***DELIVERABLE/SEGMENT: 4***
+
+-Final Details-group-TBD
 
 ## **Vizualizations** 
 Tableau, Scribblemaps, Google Slides, Python/Vsc, Pandas
@@ -331,12 +330,7 @@ https://www.cicic.ca/869/RepertoireEtablissements.aspx?sortcode=2.25.26.26.27.28
 
 - Physical flow account for greenhouse gas emissions, Frequency: Annual, Table: 38-10-0097-01 (formerly CANSIM 153-0114) Release date: 2021-12-13, Geography: Canada, Province or territory: 	https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3810009701	
 
-
-
-***DELIVERABLE/SEGMENT: 4***
-
--Final Details-group-TBD
-
+- https://www.nbc.ca/content/dam/bnc/en/rates-and-analysis/economic-analysis/housing-affordability.pdf
 ________________
 ________________
 
