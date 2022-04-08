@@ -294,6 +294,7 @@ ADD: images/data from ML model, 1+ interative element(s)
 ***DELIVERABLE/SEGMENT: 4***
 
 -Final Details-group-TBD
+ML model limitation: have to do for each province
 
 ## **Vizualizations** 
 Tableau, Scribblemaps, Google Slides, Python/Vsc, Pandas
