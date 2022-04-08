@@ -163,7 +163,7 @@ fully integrated DB connecting to the model, 1+ joins, one connection string, up
 **Database Schema/Query**
 
 The DataBase was completed via Postgres and SQL, along with the ERD. Please refer to link below:
-http://group10database.cakmngpixa6j.us-east-1.rds.amazonaws.com/
+group10database.cakmngpixa6j.us-east-1.rds.amazonaws.com
 
 
 
