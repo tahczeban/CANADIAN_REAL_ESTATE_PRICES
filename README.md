@@ -276,20 +276,19 @@ ADD: images/data from ML model, 1+ interative element(s)
 
 ***DELIVERABLE/SEGMENT: 4***
 1) PRESENTATION:with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
-ADD: a more thorough description of the analysis, technologies/languages/tools and algorithms with updated slides/images. Live presentation: 
+ADD: a more thorough description of the analysis, technologies/languages/tools and algorithms with updated slides/images. Live presentation: all present, realtime dashboard interactivity, within time limits (7 minutes present, 5 minutes questions), speaker notes flashcards or video of presentation rehearsal
 
-2) GitHub: working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person
-ADD: most of the code for ML, updated README with images/updated links, 4 commits per person
+2) GitHub: production-ready code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person ADD: updated README with images/updated links, 4 commits per person, Requirements.txt file, link to dashboard and Google Slides, 16 commits in total for each team member, clean code/PEP 8
 
-3) ML model: preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits
-ADD: explanation in changes of model choice from last deliverable/segment, describe training/additional training, completion and description of accuracy score
-ML model limitation: have to do for each province
+3) ML model: preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits. ADD: explanation in changes of model choice from last deliverable/segment, describe training/additional training, completion and description of confusion matrix with final accuracy score
 
-4) DB: fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD 
-ADD: ensure DB is connectable and up to date 
+Model Choice: multi regression, changes to shfit 1, -1, shift 2, -2, shift 3, -3
+ML model limitations: have to do for each province, could not complete R2 due to UndefinedMetricWarning/only 1 feature
+ML Model Benefits: increase shifts increases accuracy
 
-5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description
-ADD: images/data from ML model, 1+ interative element(s)
+4) DB: fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD. ADD: ensure DB is connectable and up to date, holds statistic data, DB interfaces, includes 2 tables, includes 1+ join,  1 connection string (SQLAlchemy)
+
+5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description. ADD: logical and easy to read, images/data from ML model, 1+ interative element(s), images or report from ML, published or screenshot.
 
 6) EXTRA: Webpage (starter) file:///Users/tanyaczeban/Desktop/webpage/index.html
 
