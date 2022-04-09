@@ -276,7 +276,7 @@ ADD: images/data from ML model, 1+ interative element(s)
 
 ***DELIVERABLE/SEGMENT: 4***
 1) PRESENTATION:with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
-ADD: a more thorough description of the analysis, technologies/languages/tools and algorithms with updated slides 
+ADD: a more thorough description of the analysis, technologies/languages/tools and algorithms with updated slides/images. Live presentation: 
 
 2) GitHub: working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person
 ADD: most of the code for ML, updated README with images/updated links, 4 commits per person
