@@ -74,24 +74,7 @@ For this Deliverable, there will be augmentations for 5 requirements:
 - Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6dQAZWPwopah6UY30V5wysAfAc/edit?usp=sharing
 Links to scribblemaps:
 
-- Interactive Map of Ranked Provincial Populations (2015-2019)
-
-https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0qDbu9-bN8FImiDovtxHWmCMPVT0wdCKbbPEdYf9tBoCOXUQAvD_BwE#/id=lErWy8Ic1v&lat=56.70160853&lng=-98.30477881&z=4&t=custom_style
-
-<img width="1440" alt="Interactive Provincial map with Populations (2015-2019)" src="https://user-images.githubusercontent.com/90135381/160724888-714fc065-a9e4-4c3c-8bc7-ab0301ed2039.png">
-
-
-- Interactive Map of Provincial House Prices (2015-2019)
-
-
-https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0qDbu9-bN8FImiDovtxHWmCMPVT0wdCKbbPEdYf9tBoCOXUQAvD_BwE#/id=JCrtVfTC3R&lat=53.797534&lng=-94.67929053&z=4&t=custom_style
-
-
-<img width="1440" alt="Screen Shot 2022-03-28 at 3 25 18 PM" src="https://user-images.githubusercontent.com/90135381/160724911-23a5784b-bb89-487e-8f81-6e1c6a9dcc80.png">
-
 2) **GitHub:** working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person. Add updates, visualizations for ML, DB, presentaion, dashboard
-
-
 
 3) **ML Model:**
 
