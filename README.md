@@ -292,9 +292,40 @@ ADD: images/data from ML model, 1+ interative element(s)
 6) EXTRA: Webpage (starter) file:///Users/tanyaczeban/Desktop/webpage/index.html
 
 ***DELIVERABLE/SEGMENT: 4***
+1) PRESENTATION:with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
+ADD: a more thorough description of the analysis, technologies/languages/tools and algorithms with updated slides 
 
--Final Details-group-TBD
+2) GitHub: working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person
+ADD: most of the code for ML, updated README with images/updated links, 4 commits per person
+
+3) ML model: preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits
+ADD: explanation in changes of model choice from last deliverable/segment, describe training/additional training, completion and description of accuracy score
 ML model limitation: have to do for each province
+
+4) DB: fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD 
+ADD: ensure DB is connectable and up to date 
+
+5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description
+ADD: images/data from ML model, 1+ interative element(s)
+
+6) EXTRA: Webpage (starter) file:///Users/tanyaczeban/Desktop/webpage/index.html
+
+
+***SELF_ASSESSMENT:***
+SELF ASSESSMENT: Includes a cohesive written analysis describing: 
+- role played/contribution
+- how contributed to other roles via discussions, peer reviews, etc.
+- greatest personal challenge and how overcame it
+
+TEAM ASSESSMENT:Includes a cohesive written analysis describing: 
+- teamwork
+- communication protocol, challenges, resolutions and what would differently in future
+- strengths as a team with tips and tricks for future cohorts
+
+SUMMARY OF PROJECT: A 3-4 sentence summary of project (for profile, interview, etc) addressing:
+- topic addressed
+- machine module
+- results of analysis
 
 ## **Vizualizations** 
 Tableau, Scribblemaps, Google Slides, Python/Vsc, Pandas
