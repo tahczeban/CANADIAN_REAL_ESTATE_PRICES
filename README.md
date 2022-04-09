@@ -46,7 +46,7 @@ The motivation for this project is to ultimately integrate all of the knowledge 
 - municipal/national housing: trending if housing supply meets demands
 
 ________________
-***RESULTS:***
+## **RESULTS:**
 
 ***DELIVERABLE 1***
 
@@ -311,7 +311,7 @@ ADD: images/data from ML model, 1+ interative element(s)
 6) EXTRA: Webpage (starter) file:///Users/tanyaczeban/Desktop/webpage/index.html
 
 ____________
-***SELF_ASSESSMENT:***
+## **SELF_ASSESSMENT/SUMMARY:**
 SELF ASSESSMENT: Includes a cohesive written analysis describing: 
 - role played/contribution
 - how contributed to other roles via discussions, peer reviews, etc.
@@ -365,11 +365,8 @@ https://www.cicic.ca/869/RepertoireEtablissements.aspx?sortcode=2.25.26.26.27.28
 - Physical flow account for greenhouse gas emissions, Frequency: Annual, Table: 38-10-0097-01 (formerly CANSIM 153-0114) Release date: 2021-12-13, Geography: Canada, Province or territory: 	https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3810009701	
 
 - https://www.nbc.ca/content/dam/bnc/en/rates-and-analysis/economic-analysis/housing-affordability.pdf
+
 ________________
-________________
-
-
-
 ## **Participant Names and roles**
 
 - David Baek - Database
@@ -380,7 +377,7 @@ ________________
 
 - Dylan Ruff - Database 
 
-- Tanya Czeban - Github maintain, dashboard, google slides
+- Tanya Czeban - Github maintain, dashboard, google slides, webpage
 
 
 
