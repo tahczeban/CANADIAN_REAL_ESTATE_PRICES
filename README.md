@@ -310,7 +310,7 @@ ADD: images/data from ML model, 1+ interative element(s)
 
 6) EXTRA: Webpage (starter) file:///Users/tanyaczeban/Desktop/webpage/index.html
 
-
+____________
 ***SELF_ASSESSMENT:***
 SELF ASSESSMENT: Includes a cohesive written analysis describing: 
 - role played/contribution
@@ -327,11 +327,13 @@ SUMMARY OF PROJECT: A 3-4 sentence summary of project (for profile, interview, e
 - machine module
 - results of analysis
 
+________
 ## **Vizualizations** 
 Tableau, Scribblemaps, Google Slides, Python/Vsc, Pandas
 
 Published Tableau blueprint @ https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/Preliminarygroup10Dashboard?publish=yes
 
+_________
 ## **Data Sources**
 
 Datasets were predominantly obtained from statscan, as well as other information sources, via a team collaborative effort. Please refer to the updated Dataset list below:
