@@ -12,7 +12,7 @@
 ________________
 
 
- **General Topic: Real Estate in Canada**
+ **Predicting Housing Prices Per Province**
  ________________________________
 
 ***OVERVIEW:***
@@ -343,6 +343,8 @@ ADD: ensure DB is connectable and up to date
 
 5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description
 ADD: images/data from ML model, 1+ interative element(s). Awaiting final completed ML Model to add to Dashboard for upcoming Presentation.
+
+https://public.tableau.com/authoring/group10Project/Preliminarygroup10Dashboard#1
 
 6) EXTRA: Webpage (starter) file:///Users/tanyaczeban/Desktop/webpage/index.html
 
