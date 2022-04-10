@@ -237,7 +237,7 @@ https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/Prelimin
 
 ***DELIVERABLE/SEGMENT: 3***
 1) PRESENTATION:with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
-ADD: a more thorough description of the analysis, technologies/languages/tools and algorithms with updated slides. The slides were updated with the Revised ML Modelvia images with text descriptions.
+ADD: a more thorough description of the analysis, technologies/languages/tools and algorithms with updated slides. The slides were updated with the Revised ML Model via images with text descriptions.
 
 2) GitHub: working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person
 ADD: most of the code for ML, updated README with images/updated links, 4 commits per person. Github was updated and organized with the ML model and Data revisions, including screenshots.
