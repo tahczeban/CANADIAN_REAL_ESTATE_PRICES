@@ -149,8 +149,9 @@ Links to scribblemaps:
 		   
 		   
 		   
+<img width="607" alt="4  Prewdict1" src="https://user-images.githubusercontent.com/90135381/162636502-952c2160-dc44-4e51-a1cc-df272cca14e8.png">
 
-		   <img width="607" alt="4  Prewdict1" src="https://user-images.githubusercontent.com/90135381/162636467-d70a6ab0-53bf-483e-9af9-5d22ff42619e.png">
+
 
 		   
 		   
