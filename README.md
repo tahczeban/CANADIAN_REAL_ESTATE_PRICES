@@ -103,6 +103,7 @@ Links to scribblemaps:
     -	Verify if these factors affect house prices to the same extent each year
     -	
 
+***REVISED ML MODEL***
 
                       FIGURE: 1. Connect SQL
 		      
