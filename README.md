@@ -103,7 +103,7 @@ Links to scribblemaps:
     -	Verify if these factors affect house prices to the same extent each year
     -	
 
-***REVISION TO ML MODEL:***
+***REVISION TO INITIAL ML MODEL:***
  1. In the first step, a connection to the SQL DataBase was established:
  
  
@@ -325,10 +325,10 @@ https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/Prelimin
 
 ***DELIVERABLE/SEGMENT: 3***
 1) PRESENTATION:with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
-ADD: a more thorough description of the analysis, technologies/languages/tools and algorithms with updated slides 
+ADD: a more thorough description of the analysis, technologies/languages/tools and algorithms with updated slides. The slides were updated with the Revised ML Modelvia images with text descriptions.
 
 2) GitHub: working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person
-ADD: most of the code for ML, updated README with images/updated links, 4 commits per person
+ADD: most of the code for ML, updated README with images/updated links, 4 commits per person. Github was updated and organized with the ML model and Data revisions, including screenshots.
 
 3) ML model: preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits
 ADD: explanation in changes of model choice from last deliverable/segment, describe training/additional training, completion and description of accuracy score
@@ -337,7 +337,7 @@ ADD: explanation in changes of model choice from last deliverable/segment, descr
 ADD: ensure DB is connectable and up to date 
 
 5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description
-ADD: images/data from ML model, 1+ interative element(s)
+ADD: images/data from ML model, 1+ interative element(s). Awaiting final completed ML Model to add to Dashboard for upcoming Presentation.
 
 6) EXTRA: Webpage (starter) file:///Users/tanyaczeban/Desktop/webpage/index.html
 
