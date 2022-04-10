@@ -232,8 +232,6 @@ CREATE TABLE data_by_year_prov_totals (
 
 blueprint, storyboard on GoogleSlides, tools and interactive slides description
 
-<img width="1225" alt="Dashboard Blueprint" src="https://user-images.githubusercontent.com/90135381/161395739-6d1c9f81-a7e3-4922-8ddd-43dc7f50768f.png">
-
 
 https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/Preliminarygroup10Dashboard?publish=yes
 
@@ -342,7 +340,12 @@ This last step entailed calculating the R squared, creating a correlation matrix
 ADD: ensure DB is connectable and up to date 
 
 5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description
-ADD: images/data from ML model, 1+ interative element(s). Awaiting final completed ML Model to add to Dashboard for upcoming Presentation.
+ADD: images/data from ML model, 1+ interative element(s). Awaiting final completed ML Model to add to Dashboard for upcoming Presentation; however, revision made to original Blueprint.
+
+
+<img width="1001" alt="Revised Dashboard" src="https://user-images.githubusercontent.com/90135381/162639238-b24ea0c8-c051-4051-8822-092c3728691b.png">
+
+
 https://public.tableau.com/authoring/group10_Dashboard/Preliminarygroup10Dashboard#2
 
 6) EXTRA: Webpage (starter) file:///Users/tanyaczeban/Desktop/webpage/index.html
