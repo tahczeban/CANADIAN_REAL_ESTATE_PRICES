@@ -122,6 +122,7 @@ Links to scribblemaps:
 
                    FIGURE: Train/Test/MSE/R2
 
+<img width="454" alt="Screen Shot 2022-04-10 at 2 52 35 PM" src="https://user-images.githubusercontent.com/90135381/162635183-3cc11678-a7f3-460c-93fd-0f7561daee65.png">
 
 **4) DB:** 
 
@@ -275,17 +276,16 @@ ADD: images/data from ML model, 1+ interative element(s)
 6) EXTRA: Webpage (starter) file:///Users/tanyaczeban/Desktop/webpage/index.html
 
 ***DELIVERABLE/SEGMENT: 4***
-1) PRESENTATION:with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
+1) PRESENTATION: with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
 ADD: a more thorough description of the analysis, technologies/languages/tools and algorithms with updated slides/images. Live presentation: all present, realtime dashboard interactivity, within time limits (7 minutes present, 5 minutes questions), speaker notes flashcards or video of presentation rehearsal
 
-2) GitHub: AS per today's conversationm awaiting for ML model to be shared to main, then can augment readme model; production-ready code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person ADD: updated README with images/updated links, 4 commits per person, Requirements.txt file, link to dashboard and Google Slides, 16 commits in total for each team member, clean code/PEP 8
+2) GitHub: Augment readme model; production-ready code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person ADD: updated README with images/updated links, 4 commits per person, Requirements.txt file, link to dashboard and Google Slides, 16 commits in total for each team member, clean code/PEP 8
 
-3) AS per today's conversationm awaiting for ML model to be shared to main, then can augment readme model.
-4) ML model: preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits. ADD: explanation in changes of model choice from last deliverable/segment, describe training/additional training, completion and description of confusion matrix with final accuracy score
+3) ML model: preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits. ADD: explanation in changes of model choice from last deliverable/segment, describe training/additional training, completion and description of confusion matrix with final accuracy score
 
 Model Choice: multi regression, changes to shfit 1, -1, shift 2, -2, shift 3, -3
-ML model limitations: have to do for each province, could not complete R2 due to UndefinedMetricWarning/only 1 feature
-ML Model Benefits: increase shifts increases accuracy
+ML model limitations: have to do for each province, could not complete R2 due to UndefinedMetricWarning/only 1 feature requiring multiple shifts
+ML Model Benefits: increase number of shifts increases accuracy
 
 4) DB: fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD. ADD: ensure DB is connectable and up to date, holds statistic data, DB interfaces, includes 2 tables, includes 1+ join,  1 connection string (SQLAlchemy)
 
@@ -295,6 +295,7 @@ ML Model Benefits: increase shifts increases accuracy
 
 ____________
 ## **SELF_ASSESSMENT/SUMMARY:**
+
 SELF ASSESSMENT: Includes a cohesive written analysis describing: 
 - role played/contribution
 - how contributed to other roles via discussions, peer reviews, etc.
@@ -312,6 +313,7 @@ SUMMARY OF PROJECT: A 3-4 sentence summary of project (for profile, interview, e
 
 ________
 ## **Vizualizations** 
+
 Tableau, Scribblemaps, Google Slides, Python/Vsc, Pandas
 
 Published Tableau blueprint @ https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/Preliminarygroup10Dashboard?publish=yes
