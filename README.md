@@ -103,14 +103,27 @@ Links to scribblemaps:
     -	Verify if these factors affect house prices to the same extent each year
     -	
 
-***REVISED ML MODEL***
-
+***REVISION TO ML MODEL:***
+ 1. In the first step, a connection to the SQL DataBase was established:
+ 
+ 
                       FIGURE: 1. Connect SQL
 		      
 <img width="1313" alt="1  Connect SQL" src="https://user-images.githubusercontent.com/90135381/162636403-d236e0a8-7a3c-47d1-b591-4dae2d4f9f5e.png">
 
 
-                    FIGURE: 2. Preprocess
+
+
+2. The preprocessing of the data was then initiated and the following was accomplished:
+
+- the data was imported
+- unrelated rows were dropped
+- data types and null values were checked
+- dummy data was obtained: .info(), .describe(), .value_counts()
+- DFs were grouped by provinces
+- lags were created for -1 and -2 shifts
+
+                            FIGURES: 2. Preprocess      
 
 <img width="914" alt="2a Preprocess" src="https://user-images.githubusercontent.com/90135381/162636415-0d380bec-8443-4553-9ba5-7e769b2dc4b5.png">
 
@@ -120,6 +133,20 @@ Links to scribblemaps:
 
 <img width="604" alt="2c Preprocess" src="https://user-images.githubusercontent.com/90135381/162636424-8bd52dd7-17e2-498a-8907-a89e6a97d8d4.png">
 
+
+3. A multi-variable Regression Model was created and Trained for 3 provinces via:
+
+- NewFoundland data was checked
+-2 019 row was dropped
+- IV/DV were created
+- Features (X) were separated from Target (y)
+- the data was split into Training and Testing
+- a Scaler instance was created and fitted
+- multi linear regression was fit to the Training set
+- Predictions for 2018 House Prices were established
+- a Comparison was made to the 'Reality' Data
+- then MSE/Correlation Matrix were created
+- This process was repeated for Ontario and British Columbia
 
                    FIGURE: 3. Create/Train Multi-var Reg Model for 3 Provinces
 
@@ -146,6 +173,8 @@ Links to scribblemaps:
 <img width="608" alt="3f" src="https://user-images.githubusercontent.com/90135381/162636460-6ffc6c55-c51b-438d-9f43-9be71c77ba8a.png">
 
 
+This step included the predictions for future house prices. DF's  for different Provinces were utilized and lags were created for 1, 2 and 3 shifts.
+
                    FIGURE: 4. Predict
 		   
 		   
@@ -153,8 +182,7 @@ Links to scribblemaps:
 <img width="607" alt="4  Prewdict1" src="https://user-images.githubusercontent.com/90135381/162636502-952c2160-dc44-4e51-a1cc-df272cca14e8.png">
 
 
-
-		   
+This last step entailed calculating the R squared, creating a correlation matrix for the model and creating a heatmap for said correlation.		   
 		   
 		   FIGURE: 5. Model eval
 
