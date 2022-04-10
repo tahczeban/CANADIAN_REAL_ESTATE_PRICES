@@ -101,28 +101,64 @@ Links to scribblemaps:
   -	Benefits:
     -	Visually show the impact of each element on house prices
     -	Verify if these factors affect house prices to the same extent each year
+    -	
 
 
-<img width="819" alt="Import Dep:House DF" src="https://user-images.githubusercontent.com/90135381/161396483-77684cf1-c5ab-4cb3-9e9f-5ab0762e6498.png">
-
-                      FIGURE: Imp Dep/House DF
-
-
-<img width="752" alt="House DF" src="https://user-images.githubusercontent.com/90135381/161396488-3f952a1e-765e-426a-844a-ff5f6a95f375.png">
-
-                     FIGURE: House DF
+                      FIGURE: 1. Connect SQL
+		      
+<img width="1313" alt="1  Connect SQL" src="https://user-images.githubusercontent.com/90135381/162636403-d236e0a8-7a3c-47d1-b591-4dae2d4f9f5e.png">
 
 
-<img width="817" alt="Scatterplots" src="https://user-images.githubusercontent.com/90135381/161396504-0fc56a24-acf4-4537-b69c-5db80c16d228.png">
+                    FIGURE: 2. Preprocess
 
-                    FIGURE: Scatterplots
+<img width="914" alt="2a Preprocess" src="https://user-images.githubusercontent.com/90135381/162636415-0d380bec-8443-4553-9ba5-7e769b2dc4b5.png">
 
 
-<img width="638" alt="Train:Test:MSE:R2" src="https://user-images.githubusercontent.com/90135381/161396492-306d84d4-b0c4-4f1d-aa1f-2e70ce41fefc.png">
+<img width="609" alt="2b Preprocess" src="https://user-images.githubusercontent.com/90135381/162636420-0707068d-40fa-4014-8d9e-27bbd8f92420.png">
 
-                   FIGURE: Train/Test/MSE/R2
 
-<img width="454" alt="Screen Shot 2022-04-10 at 2 52 35 PM" src="https://user-images.githubusercontent.com/90135381/162635183-3cc11678-a7f3-460c-93fd-0f7561daee65.png">
+<img width="604" alt="2c Preprocess" src="https://user-images.githubusercontent.com/90135381/162636424-8bd52dd7-17e2-498a-8907-a89e6a97d8d4.png">
+
+
+                   FIGURE: 3. Create/Train Multi-var Reg Model for 3 Provinces
+
+
+<img width="606" alt="3 Create:Train multi var reg model 3 prov" src="https://user-images.githubusercontent.com/90135381/162636446-b1949bbe-c000-4e14-baf6-a6cf5be4cefa.png">
+
+
+
+<img width="1034" alt="3b" src="https://user-images.githubusercontent.com/90135381/162636450-c088d5ff-fbf5-4d40-b9d0-4d04b65f4f5c.png">
+
+
+
+<img width="607" alt="3c Ont" src="https://user-images.githubusercontent.com/90135381/162636451-1ca0e0c7-0076-4ff5-a162-160149c99686.png">
+
+
+<img width="1032" alt="3d, ont contd" src="https://user-images.githubusercontent.com/90135381/162636452-c0542884-8b73-4a75-9b42-84eab5e8e183.png">
+
+
+
+<img width="611" alt="3e bc" src="https://user-images.githubusercontent.com/90135381/162636455-2d74791f-93fb-444c-8cbb-7c5ddbea8fe1.png">
+
+
+
+<img width="608" alt="3f" src="https://user-images.githubusercontent.com/90135381/162636460-6ffc6c55-c51b-438d-9f43-9be71c77ba8a.png">
+
+
+                   FIGURE: 4. Predict
+		   
+		   
+		   
+
+		   <img width="607" alt="4  Prewdict1" src="https://user-images.githubusercontent.com/90135381/162636467-d70a6ab0-53bf-483e-9af9-5d22ff42619e.png">
+
+		   
+		   
+		   FIGURE: 5. Model eval
+
+
+<img width="911" alt="5  Model eval" src="https://user-images.githubusercontent.com/90135381/162636475-ead73413-8281-42b6-9bcd-02ab1c84adb0.png">
+
 
 **4) DB:** 
 
