@@ -256,7 +256,12 @@ REVISION TO INITIAL ML MODEL
 
 
 
-2. The preprocessing of the data was then initiated and the following was accomplished:
+
+
+                            FIGURES: 2. Preprocess      
+
+
+The preprocessing of the data was then initiated and the following was accomplished:
 
 - the data was imported
 - unrelated rows were dropped
@@ -265,7 +270,6 @@ REVISION TO INITIAL ML MODEL
 - DFs were grouped by provinces
 - lags were created for -1 and -2 shifts
 
-                            FIGURES: 2. Preprocess      
 
 <img width="914" alt="2a Preprocess" src="https://user-images.githubusercontent.com/90135381/162636415-0d380bec-8443-4553-9ba5-7e769b2dc4b5.png">
 
@@ -276,10 +280,15 @@ REVISION TO INITIAL ML MODEL
 <img width="604" alt="2c Preprocess" src="https://user-images.githubusercontent.com/90135381/162636424-8bd52dd7-17e2-498a-8907-a89e6a97d8d4.png">
 
 
-3. A multi-variable Regression Model was created and Trained for 3 provinces via:
+
+
+                   FIGURE: 3. Create/Train Multi-var Reg Model for 3 Provinces
+
+
+ A multi-variable Regression Model was created and Trained for 3 provinces via:
 
 - NewFoundland data was checked
--2 019 row was dropped
+- 2019 row was dropped
 - IV/DV were created
 - Features (X) were separated from Target (y)
 - the data was split into Training and Testing
@@ -289,8 +298,6 @@ REVISION TO INITIAL ML MODEL
 - a Comparison was made to the 'Reality' Data
 - then MSE/Correlation Matrix were created
 - This process was repeated for Ontario and British Columbia
-
-                   FIGURE: 3. Create/Train Multi-var Reg Model for 3 Provinces
 
 
 <img width="606" alt="3 Create:Train multi var reg model 3 prov" src="https://user-images.githubusercontent.com/90135381/162636446-b1949bbe-c000-4e14-baf6-a6cf5be4cefa.png">
@@ -315,18 +322,23 @@ REVISION TO INITIAL ML MODEL
 <img width="608" alt="3f" src="https://user-images.githubusercontent.com/90135381/162636460-6ffc6c55-c51b-438d-9f43-9be71c77ba8a.png">
 
 
-This step included the predictions for future house prices. DF's  for different Provinces were utilized and lags were created for 1, 2 and 3 shifts.
 
                    FIGURE: 4. Predict
 		   
 		   
 		   
+
+This step included the predictions for future house prices. DF's  for different Provinces were utilized and lags were created for 1, 2 and 3 shifts.
+		   
+		   
 <img width="607" alt="4  Prewdict1" src="https://user-images.githubusercontent.com/90135381/162636502-952c2160-dc44-4e51-a1cc-df272cca14e8.png">
 
 
+
+		   FIGURE: 5. Model eval
+
 This last step entailed calculating the R squared, creating a correlation matrix for the model and creating a heatmap for said correlation.		   
 		   
-		   FIGURE: 5. Model eval
 
 
 <img width="911" alt="5  Model eval" src="https://user-images.githubusercontent.com/90135381/162636475-ead73413-8281-42b6-9bcd-02ab1c84adb0.png">
