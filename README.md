@@ -402,7 +402,7 @@ ________
 
 Tableau, Scribblemaps, Google Slides, Python/Vsc, Pandas
 
-Published Tableau blueprint @ https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/Preliminarygroup10Dashboard?publish=yes
+Published Tableau blueprint @ https://public.tableau.com/authoring/group10_Dashboard/Preliminarygroup10Dashboard#1
 
 _________
 ## **Data Sources**
