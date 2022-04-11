@@ -354,8 +354,8 @@ ADD: ensure DB is connectable and up to date
 5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description
 ADD: images/data from ML model, 1+ interative element(s). Awaiting final completed ML Model to add to Dashboard for upcoming Presentation; however, revision made to original Blueprint.
 
+<img width="1000" alt="Screen Shot 2022-04-11 at 5 34 20 PM" src="https://user-images.githubusercontent.com/90135381/162837746-d6ed1177-494a-4001-b989-f6e10cac6ee2.png">
 
-<img width="1001" alt="Revised Dashboard" src="https://user-images.githubusercontent.com/90135381/162639238-b24ea0c8-c051-4051-8822-092c3728691b.png">
 
 
 https://public.tableau.com/authoring/group10_Dashboard/Preliminarygroup10Dashboard#2
