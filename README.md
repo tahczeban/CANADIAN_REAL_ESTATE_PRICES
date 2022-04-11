@@ -449,7 +449,7 @@ ________________
 
 - Dylan Ruff - Database 
 
-- Tanya Czeban - Github maintain, dashboard, google slides, webpage
+- Tanya Czeban - Github maintain, dashboard, google slides, webpage.
 
 
 
