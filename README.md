@@ -356,9 +356,8 @@ ADD: images/data from ML model, 1+ interative element(s). Awaiting final complet
 
 <img width="1000" alt="Screen Shot 2022-04-11 at 5 34 20 PM" src="https://user-images.githubusercontent.com/90135381/162837746-d6ed1177-494a-4001-b989-f6e10cac6ee2.png">
 
+https://public.tableau.com/authoring/group10Dashboard/Preliminarygroup10Dashboard#2
 
-
-https://public.tableau.com/authoring/group10_Dashboard/Preliminarygroup10Dashboard#2
 
 6) EXTRA: Webpage (starter) file:///Users/tanyaczeban/Desktop/webpage/index.html
 
