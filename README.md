@@ -21,9 +21,11 @@ The motivation for this project is to ultimately integrate all of the knowledge 
 
 ## **Primary Questions:**
 
-1. In which Province(s) can a potential buyer afford to purchase their home, based on their budget?
-2. How do geographic features effect home prices in different provinces?
-3. What is the projected 2020 home prices per Province, given the data gathered for this study?
+1) In which Province(s) can a potential buyer afford to purchase their home, based on their budget?
+
+2) How do geographic features effect home prices in different provinces?
+
+3) What is the projected 2020 home prices per Province, given the data gathered for this study?
 
 ## **Additional Questions:**
 
@@ -52,16 +54,20 @@ ________________
 - LINK TO PRESENTATION: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6dQAZWPwopah6UY30V5wysAfAc/edit?usp=sharing
 
 - LINKS TO SCRIBBLEMAPS: 
+
 1) INTERACTIVE HOUSE PRICES/PROVINCE:
+
  https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0qDbu9-bN8FImiDovtxHWmCMPVT0wdCKbbPEdYf9tBoCOXUQAvD_BwE#/id=JCrtVfTC3R&lat=53.797534&lng=-94.67929053&z=4&t=custom_style
-2)INTERACTIVE PROVINCIAL POPULATIONS:
+ 
+2) INTERACTIVE PROVINCIAL POPULATIONS:
+
 https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0qDbu9-bN8FImiDovtxHWmCMPVT0wdCKbbPEdYf9tBoCOXUQAvD_BwE#/id=lErWy8Ic1v&lat=56.70160853&lng=-98.30477881&z=4&t=custom_style
 
-**2) GitHub:**
+**2) GitHub:**			!!!!!! REMINDER2ME: WRITE SOMETHING HERE!!!!!!
 
 **3) DB:**
 
-This ERD depicts the relational ties between the nine tables cleaned and  created in a Database in preparation for analysis. With the common denominators being year and province, etc it will be determined how crime rate, greenhouse emmisions, number of post secondary educational institutions, household income, immigration income and population, as well as educational institution tuition help to shape the choice of where to live and the effects on housing prices per province. The nine tables are as follows:
+This ERD depicts the relational ties between the nine tables cleaned and created in an SQL Database in preparation for analysis. With the common denominators being year and province, etc it will be determined how crime rate, greenhouse emmisions, number of post secondary educational institutions, household income, immigration income and population, as well as educational institution contribute in shaping the choice of where to live and the effects on housing prices per province. The nine tables are as follows:
 
 1. avg_house_prices
 2. crime_rate
@@ -182,37 +188,59 @@ CREATE TABLE data_by_year_prov_totals (
 	population BIGINT NOT NULL,
 );
 
-**4) ML MODEL:**
+**4) ML MODEL:**         !!!!!!!REMINDER2ME: ADD UPDATED PICS HERE AND REMOVE FROM BELOW!!!!!!!
 
  - Description of preliminary data preprocessing
 
-   - Data cleaning: Remove the irrelevant observations from collect data, including the null value and duplicate data.  
-   - Data intergration: combime independent variable and dependent variable each year as one table (2015-2019)
-     -	Independent variable: kilotonnes, crime rate, immigration population, median immigration wage, household income, provicial population.
-     -	Dependent variable: provincial house prices. 
-   - Data reduction: reduce dimensionality (scale method), create a dummy data for each province into 0 or 1.
-   - Data type transfer: change string to float type.
+   1) Data cleaning: Remove the irrelevant observations from collect data, including the null value and duplicated data  
+   2) Data intergration: combime independent variable and dependent variable each year as one table (2015-2019)
+     -	Independent variable: kilotonnes/Greenhouse gas, crime rate, household income, provicial population, immigration population, median immigration 	wage
+     -	Dependent variable: provincial house prices 
+   3) Data reduction: reduce dimensionality (scale method), create a dummy data for each province into 0 or 1
+   4) Data type transfer: change string to float type
 
-- Description of preliminary feature engineering and preliminary feature selection, including their decision-making process 
-   -  Separate each province's house price from 2015 to 2019. Each line includes all the independent and dependent variables. Apply the time lag process to the previous years to forecast the future house price. 
+- Description of preliminary feature(s) engineering and preliminary feature(s) selection, including their decision-making process 
+
+   -  Separate each province's house price from 2015 to 2019. Each line includes all the independent and dependent variables. Apply the time lag process 	to the previous years to forecast the future house prices 
 
 - Description of how data was split into training and testing sets
-   - 80% of dependant and independant variables are the training sets, 20% of them are test sets.
+
+   - 80% of dependant and independant variables are the training sets, 20% of them are test sets
    
 - Explanation of model choice, including limitations and benefits 
+
   - Model: multi-variables regression
-  - Description: the outcome of the analysis is continuous by each year to figure out the different variables that affect the house price. Therefore, we use the unsupervised machine learning method to analyze the future house price. In addition, our team used three provinces to train the model based on the existing data, then used the same model to predict the 2020 house price based on the 2019 data. 
+  
+  - Description: the outcome of the analysis is continuous by each year to figure out the different variables that affect the house price. Therefore, we 	use the unsupervised machine learning method to analyze the future house prices. In addition, our team used three provinces to train the model 		based on the existing data, then used the same model to predict the 2020 house prices based on the 2019 data.
+  
   -	Limitations:
+  
     -	Only can continuous numerical can be counted in data.
     -   We can not measure accuracy for 2020 price because we don't have the 2020 actual data to refer.
     -   The model can only show the effects of selected features and cannot analyze factors that were not selected.
 
   -	Benefits:
+  
     -	We can train and test the model to predict the future house price. 
     -   We can used the 2018 and 2019 original values to the dataset to calculate the accurancy. 
     -   Clearly demonstrate which factors have the greatest impact on house prices in each province.
 
-**5) DASHBOARD:**
+**5) DASHBOARD:** 
+
+The final Dashboard Presentation, including interactive/dynamic depictions for: 
+
+	1) map of prices and population per province (choose prov dropdown to highlight features in 2)
+	
+	2) dynamic features bubble chart for house prices (please change drop down options to view different features)
+	
+	3) dynamic features by budget (please chose desired budget with slider to view associated features)
+	
+	4)Temp addition of Correlation Heatmap from ML Model (Right)
+	
+	5)Added url to github with logo (top right) on header:
+	
+	link: <a href="https://lovepik.com/images/png-banking.html">Banking Png vectors by Lovepik.com</a>
+	
 
 <img width="1440" alt="Screen Shot 2022-04-11 at 6 42 07 PM" src="https://user-images.githubusercontent.com/90135381/162845199-9ace348c-79a7-421f-a45a-a503e330c303.png">
 
