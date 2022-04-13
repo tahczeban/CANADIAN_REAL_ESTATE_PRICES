@@ -12,7 +12,7 @@
 ________________
 
 
- **ML & Canadian Real Estate Prices: Predicting Housing Prices Per Province**
+ **PART 1: ML & Canadian Real Estate Prices: Predicting Housing Prices Per Province**
  ________________________________
 
 ***OVERVIEW:***
@@ -250,9 +250,11 @@ blueprint, storyboard on GoogleSlides, tools and interactive slides description
 
 https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/Preliminarygroup10Dashboard?publish=yes
 
-## **CONCLUSION:**
+## **CONCLUSION:**     !!!!!!!HAVE TO ADD THEIR STUFF HERE!!!!!!!!!!!!!!!!
+
+
 ______________
-## **DELIVERABLES1-4:**
+## **PART 2: DELIVERABLES1-4:**
 
 ***DELIVERABLE 1***
 
