@@ -79,6 +79,35 @@ Links to scribblemaps:
 3) **ML Model:**
 
  - Description of preliminary data preprocessing
+
+   - Data cleaning: Remove the irrelevant observations from collect data, including the null value and duplicate data.  
+   - Data intergration: combime independent variable and dependent variable each year as one table (2015-2019)
+     -	Independent variable: kilotonnes, crime rate, immigration population, median immigration wage, household income, provicial population.
+     -	Dependent variable: provincial house prices. 
+   - Data reduction: reduce dimensionality (scale method), create a dummy data for each province into 0 or 1.
+   - Data type transfer: change string to float type.
+
+- Description of preliminary feature engineering and preliminary feature selection, including their decision-making process 
+   -  Separate each province's house price from 2015 to 2019. Each line includes all the independent and dependent variables. Apply the time lag process to the previous years to forecast the future house price. 
+
+- Description of how data was split into training and testing sets
+   - 80% of dependant and independant variables are the training sets, 20% of them are test sets.
+   
+- Explanation of model choice, including limitations and benefits 
+  - Model: multi-variables regression
+  - Description: the outcome of the analysis is continuous by each year to figure out the different variables that affect the house price. Therefore, we use the unsupervised machine learning method to analyze the future house price. In addition, our team used three provinces to train the model based on the existing data, then used the same model to predict the 2020 house price based on the 2019 data. 
+  -	Limitations:
+    -	Only can continuous numerical can be counted in data.
+    -   We can not measure accuracy for 2020 price because we don't have the 2020 actual data to refer.
+    -   The model can only show the effects of selected features and cannot analyze factors that were not selected.
+
+  -	Benefits:
+    -	We can train and test the model to predict the future house price. 
+    -   We can used the 2018 and 2019 original values to the dataset to calculate the accurancy. 
+    -   Clearly demonstrate which factors have the greatest impact on house prices in each province.
+
+    
+=======
    - Data cleaning: Remove the irrelevant observations from collect data, including the null value and duplicate data.  Check the outlier? (Box and whisker plot)
    - Data intergration: combime independent variable and dependent variable each year as one table (2015-2019)
      -	Independent variable: provincial population, crime rate, household income,   greenhouse emission, number of colleges
@@ -103,6 +132,7 @@ Links to scribblemaps:
     -	Visually show the impact of each element on house prices
     -	Verify if these factors affect house prices to the same extent each year
     -	
+
 
 
 **4) DB:** 
