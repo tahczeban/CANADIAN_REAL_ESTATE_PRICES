@@ -230,11 +230,11 @@ ______________
 
 The results for Deliverable 1 encompass team collaboration via slack and with the Teaching Staff, in order to accomplish the goals. GitHub establishment requirements will be met including: initialization of an appropriate repository, addition of all branches and a README. Additionally, cleaning and pre-processing the data will be considered. A 'mockup' database will be included, as well as a potential 'mockup' ML model. Lastly, an example ERD will be included for this submission to meet all requirements. A SCRUM method of approach will be contemplated in order to attain all goals with optimal results.
 
-1) Presentation: outline with questions,mock models for DB and ML, visualizations
+1) PRESENTATION: outline with questions,mock models for DB and ML, visualizations
 
-2) GitHub: working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person
+2) GITHUB: working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person
 
-3) ML model: preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits
+3) ML MODEL: preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits
 
 4) DB: fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD
 
@@ -244,11 +244,11 @@ The results for Deliverable 1 encompass team collaboration via slack and with th
 
 For this Deliverable, there will be augmentations for 5 requirements:
 
-1) **PRESENTATION:** with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
+1) PRESENTATION: with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
 
-2) **GitHub:** working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person. Add updates, visualizations for ML, DB, presentaion, dashboard
+2) GITHUB: working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person. Add updates, visualizations for ML, DB, presentaion, dashboard
 
-3) **ML Model:**
+3) ML MODEL:
 
  - Description of preliminary data preprocessing
 
@@ -280,7 +280,7 @@ For this Deliverable, there will be augmentations for 5 requirements:
 
     
 
-   - Data cleaning: Remove the irrelevant observations from collect data, including the null value and duplicate data.  Check the outlier? (Box and whisker plot)
+   - Data cleaning: Remove the irrelevant observations from collect data, including the null value and duplicate data.  
    - Data intergration: combime independent variable and dependent variable each year as one table (2015-2019)
      -	Independent variable: provincial population, crime rate, household income,   greenhouse emission, number of colleges
      -	Dependent variable: house price 
@@ -304,14 +304,15 @@ For this Deliverable, there will be augmentations for 5 requirements:
     -	Visually show the impact of each element on house prices
     -	Verify if these factors affect house prices to the same extent each year
   
-**4) DB:** 
+4) DB: DB: fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD
 
 
-**5) DASHBOARD:**
+5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description, added ML model, DB and presentation advancements
 
 
 
 ***DELIVERABLE/SEGMENT: 3***
+
 1) PRESENTATION:with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
 ADD: a more thorough description of the analysis, technologies/languages/tools and algorithms with updated slides. The slides were updated with the Revised ML Model via images with text descriptions.
 
@@ -433,16 +434,19 @@ ADD: images/data from ML model, 1+ interative element(s). Awaiting final complet
 6) EXTRA: Webpage (starter) file:///Users/tanyaczeban/Desktop/webpage/index.html ?
 
 ***DELIVERABLE/SEGMENT: 4***
+
 1) PRESENTATION: with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
 ADD: a more thorough description of the analysis, technologies/languages/tools and algorithms with updated slides/images. Live presentation: all present, realtime dashboard interactivity, within time limits (7 minutes present, 5 minutes questions), speaker notes flashcards or video of presentation rehearsal
 
-2) GitHub: Augment readme model; production-ready code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person ADD: updated README with images/updated links, 4 commits per person, Requirements.txt file, link to dashboard and Google Slides, 16 commits in total for each team member, clean code/PEP 8
+2) GITHUB: Augment readme model; production-ready code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person ADD: updated README with images/updated links, 4 commits per person, Requirements.txt file, link to dashboard and Google Slides, 16 commits in total for each team member, clean code/PEP 8
 
-3) ML model: preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits. ADD: explanation in changes of model choice from last deliverable/segment, describe training/additional training, completion and description of confusion matrix with final accuracy score
+3) ML MODEL: preliminary preprocessing, feature engineering and feature description with decision-making process, train and test data description, model choice with limitations and benefits. ADD: explanation in changes of model choice from last deliverable/segment, describe training/additional training, completion and description of confusion matrix with final accuracy score
 
-Model Choice: multi regression, changes to shfit 1, -1, shift 2, -2, shift 3, -3
-ML model limitations: have to do for each province, could not complete R2 due to UndefinedMetricWarning/only 1 feature requiring multiple shifts
-ML Model Benefits: increase number of shifts increases accuracy
+- Model Choice: multi regression, changes to shfit 1, -1, shift 2, -2, shift 3, -3
+
+- ML model limitations: have to do for each province, could not complete R2 due to UndefinedMetricWarning/only 1 feature requiring multiple shifts
+
+- ML Model Benefits: increase number of shifts increases accuracy
 
 4) DB: fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD. ADD: ensure DB is connectable and up to date, holds statistic data, DB interfaces, includes 2 tables, includes 1+ join,  1 connection string (SQLAlchemy)
 
