@@ -19,7 +19,7 @@ ________________
 
 The motivation for this project is to ultimately integrate all of the knowledge obtained from BCS and pertain it to real life situations. This was achieved by utilizing statistics, data pre-processing and Machine Learning (ML) procedures to create relevent and predictive models regarding this topic. The final model will be presented utilizing vizualizations for ease of conveying the aforementioned data. A collaborative effort is being initiated to consider the topic of housing price indices betwee 2015-2019 with regards to population, income, crime rate, education availability and greenhouse gases across Canada, as this is a pertinent and essential topic among people in this day and age!
 
-## ** Primary Questions:**
+## **Primary Questions:**
 
 1. In which Province(s) can a potential buyer afford to purchase their home, based on their budget?
 2. How do geographic features effect home prices in different provinces?
@@ -44,6 +44,138 @@ The motivation for this project is to ultimately integrate all of the knowledge 
 ________________
 ## **RESULTS:**
 
+1) PRESENTATION: 
+<img width="1384" alt="presentation" src="https://user-images.githubusercontent.com/90135381/162085451-7107296c-de76-4ea2-9b77-6c3ce5ab3bf6.png">
+
+
+- Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6dQAZWPwopah6UY30V5wysAfAc/edit?usp=sharing
+Links to scribblemaps:
+2) GitHub:
+3) DB:*UPDATED ERD**
+
+This updated ERD depicts the relational ties between the nine tables cleaned and  created in a Database in preparation for analysis. With the common denominators being year and province, etc it will be determined how crime rate, greenhouse emmisions, number of post secondary educational institutions, household income, immigration income and population, as well as educational institution tuition help to shape the choice of where to live and the effects on housing prices per province. The nine tables are as follows:
+
+1. avg_house_prices
+2. crime_rate
+3. educational_institutions
+4. greenhouse
+5. household_income
+6. immigration_median_income
+7. immigration_population
+
+
+<img width="1440" alt="Screen Shot 2022-04-06 at 5 45 04 PM" src="https://user-images.githubusercontent.com/90135381/162077174-79a86e50-0de4-4466-abbd-81009dd11bfd.png">
+
+
+fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD (above) with the schema/queries below:
+
+**Database Schema/Query**
+
+The DataBase was completed via Postgres and SQL, along with the ERD. Please refer to link below:
+group10database.cakmngpixa6j.us-east-1.rds.amazonaws.com
+
+<img width="1356" alt="SQL" src="https://user-images.githubusercontent.com/90135381/163260886-b63b8243-669a-4d51-9d12-77c1368a6b43.png">
+
+
+CREATE TABLE household_income (
+	Year INT NOT NULL,
+	Province VARCHAR(40) NOT NULL,
+	Income INT NOT NULL
+);
+
+CREATE TABLE population_analysis (
+	Year INT NOT NULL,
+	Province VARCHAR(40) NOT NULL,
+	population BIGINT NOT NULL
+);
+
+CREATE TABLE avg_house_price (
+	Year INT NOT NULL,
+	Province VARCHAR(40) NOT NULL,
+	Avg_price BIGINT NOT NULL
+);
+CREATE TABLE crime_rate (
+	Year INT NOT NULL,
+	Province VARCHAR(40) NOT NULL,
+	Avg_price BIGINT NOT NULL
+);
+
+CREATE TABLE educational_institutions (
+	Province VARCHAR(40) NOT NULL,
+	educational_institutions INT NOT NULL
+);
+
+CREATE TABLE immigration_median_income (
+	Year INT NOT NULL,
+	Province VARCHAR(40) NOT NULL,
+	immigrant_median_income BIGINT NOT NULL
+);
+
+CREATE TABLE immigration_population (
+	Year INT NOT NULL,
+	Province VARCHAR(40) NOT NULL,
+	immigrants BIGINT NOT NULL,
+	refugees BIGINT NOT NULL
+);
+
+CREATE TABLE province_household_income (
+	Year INT NOT NULL,
+	Province VARCHAR(40) NOT NULL,
+	income BIGINT NOT NULL,
+);
+CREATE TABLE tuition ( 
+	Year INT NOT NULL,
+	Province VARCHAR(40) NOT NULL,
+	Population_type VARCHAR(40) NOT NULL,
+	Education_type VARCHAR(40) NOT NULL,
+	Tuition BIGINT NOT NULL
+);
+
+CREATE TABLE greenhouse (
+	Year INT NOT NULL,
+	Province VARCHAR(40) NOT NULL,
+	Sector VARCHAR(40) NOT NULL,
+	Kilotonnes bigint NOT NULL
+);
+
+CREATE TABLE household_income (
+	Year INT NOT NULL,
+	Province VARCHAR(40) NOT NULL,
+	house_procies BIGINT NOT NULL,
+	kilotonnes BIGINT NOT NULL,
+	crime BIGINT NOT NULL,
+	immigration_totals BIGINT NOT NULL,
+	med_imm_wages BIGINT NOT NULL,
+	household_income BIGINT NOT NULL,
+	population BIGINT NOT NULL
+);
+
+CREATE TABLE household_income (
+	Year INT NOT NULL,
+	Province VARCHAR(40) NOT NULL,
+	house_procies BIGINT NOT NULL,
+	kilotonnes BIGINT NOT NULL,
+	crime BIGINT NOT NULL,
+	immigration_totals BIGINT NOT NULL,
+	med_imm_wages BIGINT NOT NULL,
+	household_income BIGINT NOT NULL,
+	population BIGINT NOT NULL
+);
+
+CREATE TABLE data_by_year_prov_totals (
+	year INT NOT NULL,
+	province VARCHAR(40) NOT NULL,
+	house_prices BIGINT NOT NULL,
+	kilotonnes BIGINT NOT NULL,
+	crime BIGINT NOT NULL,
+	immigration_totals BIGINT NOT NULL,
+	med_imm_wages BIGINT NOT NULL,
+	household_income BIGINT NOT NULL,
+	population BIGINT NOT NULL,
+);
+
+________________
+## **DELIVERABLES1-4:**
 ***DELIVERABLE 1***
 
 The results for Deliverable 1 encompass team collaboration via slack and with the Teaching Staff, in order to accomplish the goals. GitHub establishment requirements will be met including: initialization of an appropriate repository, addition of all branches and a README. Additionally, cleaning and pre-processing the data will be considered. A 'mockup' database will be included, as well as a potential 'mockup' ML model. Lastly, an example ERD will be included for this submission to meet all requirements. A SCRUM method of approach will be contemplated in order to attain all goals with optimal results.
@@ -133,7 +265,7 @@ Links to scribblemaps:
 
 **4) DB:** 
 
-**UPDATED ERD**
+*UPDATED ERD**
 
 This updated ERD depicts the relational ties between the nine tables cleaned and  created in a Database in preparation for analysis. With the common denominators being year and province, etc it will be determined how crime rate, greenhouse emmisions, number of post secondary educational institutions, household income, immigration income and population, as well as educational institution tuition help to shape the choice of where to live and the effects on housing prices per province. The nine tables are as follows:
 
@@ -144,7 +276,7 @@ This updated ERD depicts the relational ties between the nine tables cleaned and
 5. household_income
 6. immigration_median_income
 7. immigration_population
-8. tuition?
+
 
 <img width="1440" alt="Screen Shot 2022-04-06 at 5 45 04 PM" src="https://user-images.githubusercontent.com/90135381/162077174-79a86e50-0de4-4466-abbd-81009dd11bfd.png">
 
