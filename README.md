@@ -44,16 +44,24 @@ The motivation for this project is to ultimately integrate all of the knowledge 
 ________________
 ## **RESULTS:**
 
-1) PRESENTATION: 
+**1) PRESENTATION:**
+
 <img width="1384" alt="presentation" src="https://user-images.githubusercontent.com/90135381/162085451-7107296c-de76-4ea2-9b77-6c3ce5ab3bf6.png">
 
 
-- Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6dQAZWPwopah6UY30V5wysAfAc/edit?usp=sharing
-Links to scribblemaps:
-2) GitHub:
-3) DB:*UPDATED ERD**
+- LINK TO PRESENTATION: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6dQAZWPwopah6UY30V5wysAfAc/edit?usp=sharing
 
-This updated ERD depicts the relational ties between the nine tables cleaned and  created in a Database in preparation for analysis. With the common denominators being year and province, etc it will be determined how crime rate, greenhouse emmisions, number of post secondary educational institutions, household income, immigration income and population, as well as educational institution tuition help to shape the choice of where to live and the effects on housing prices per province. The nine tables are as follows:
+- LINKS TO SCRIBBLEMAPS: 
+1) INTERACTIVE HOUSE PRICES/PROVINCE:
+ https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0qDbu9-bN8FImiDovtxHWmCMPVT0wdCKbbPEdYf9tBoCOXUQAvD_BwE#/id=JCrtVfTC3R&lat=53.797534&lng=-94.67929053&z=4&t=custom_style
+2)INTERACTIVE PROVINCIAL POPULATIONS:
+https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0qDbu9-bN8FImiDovtxHWmCMPVT0wdCKbbPEdYf9tBoCOXUQAvD_BwE#/id=lErWy8Ic1v&lat=56.70160853&lng=-98.30477881&z=4&t=custom_style
+
+**2) GitHub:**
+
+**3) DB:**
+
+This ERD depicts the relational ties between the nine tables cleaned and  created in a Database in preparation for analysis. With the common denominators being year and province, etc it will be determined how crime rate, greenhouse emmisions, number of post secondary educational institutions, household income, immigration income and population, as well as educational institution tuition help to shape the choice of where to live and the effects on housing prices per province. The nine tables are as follows:
 
 1. avg_house_prices
 2. crime_rate
@@ -174,8 +182,50 @@ CREATE TABLE data_by_year_prov_totals (
 	population BIGINT NOT NULL,
 );
 
-________________
+**4) ML MODEL:**
+
+ - Description of preliminary data preprocessing
+
+   - Data cleaning: Remove the irrelevant observations from collect data, including the null value and duplicate data.  
+   - Data intergration: combime independent variable and dependent variable each year as one table (2015-2019)
+     -	Independent variable: kilotonnes, crime rate, immigration population, median immigration wage, household income, provicial population.
+     -	Dependent variable: provincial house prices. 
+   - Data reduction: reduce dimensionality (scale method), create a dummy data for each province into 0 or 1.
+   - Data type transfer: change string to float type.
+
+- Description of preliminary feature engineering and preliminary feature selection, including their decision-making process 
+   -  Separate each province's house price from 2015 to 2019. Each line includes all the independent and dependent variables. Apply the time lag process to the previous years to forecast the future house price. 
+
+- Description of how data was split into training and testing sets
+   - 80% of dependant and independant variables are the training sets, 20% of them are test sets.
+   
+- Explanation of model choice, including limitations and benefits 
+  - Model: multi-variables regression
+  - Description: the outcome of the analysis is continuous by each year to figure out the different variables that affect the house price. Therefore, we use the unsupervised machine learning method to analyze the future house price. In addition, our team used three provinces to train the model based on the existing data, then used the same model to predict the 2020 house price based on the 2019 data. 
+  -	Limitations:
+    -	Only can continuous numerical can be counted in data.
+    -   We can not measure accuracy for 2020 price because we don't have the 2020 actual data to refer.
+    -   The model can only show the effects of selected features and cannot analyze factors that were not selected.
+
+  -	Benefits:
+    -	We can train and test the model to predict the future house price. 
+    -   We can used the 2018 and 2019 original values to the dataset to calculate the accurancy. 
+    -   Clearly demonstrate which factors have the greatest impact on house prices in each province.
+
+**5) DASHBOARD:**
+
+<img width="1440" alt="Screen Shot 2022-04-11 at 6 42 07 PM" src="https://user-images.githubusercontent.com/90135381/162845199-9ace348c-79a7-421f-a45a-a503e330c303.png">
+
+
+blueprint, storyboard on GoogleSlides, tools and interactive slides description
+
+
+https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/Preliminarygroup10Dashboard?publish=yes
+
+## **CONCLUSION:**
+______________
 ## **DELIVERABLES1-4:**
+
 ***DELIVERABLE 1***
 
 The results for Deliverable 1 encompass team collaboration via slack and with the Teaching Staff, in order to accomplish the goals. GitHub establishment requirements will be met including: initialization of an appropriate repository, addition of all branches and a README. Additionally, cleaning and pre-processing the data will be considered. A 'mockup' database will be included, as well as a potential 'mockup' ML model. Lastly, an example ERD will be included for this submission to meet all requirements. A SCRUM method of approach will be contemplated in order to attain all goals with optimal results.
@@ -195,12 +245,6 @@ The results for Deliverable 1 encompass team collaboration via slack and with th
 For this Deliverable, there will be augmentations for 5 requirements:
 
 1) **PRESENTATION:** with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
-
-<img width="1384" alt="presentation" src="https://user-images.githubusercontent.com/90135381/162085451-7107296c-de76-4ea2-9b77-6c3ce5ab3bf6.png">
-
-
-- Link to presentation: https://docs.google.com/presentation/d/1u-Dq1I57YpX5nCJLc6dQAZWPwopah6UY30V5wysAfAc/edit?usp=sharing
-Links to scribblemaps:
 
 2) **GitHub:** working code for exploratory and ML updated README, communication protocols, project outline, branches/person with 4 commits per person. Add updates, visualizations for ML, DB, presentaion, dashboard
 
@@ -260,140 +304,12 @@ Links to scribblemaps:
     -	Visually show the impact of each element on house prices
     -	Verify if these factors affect house prices to the same extent each year
   
-
-
-
 **4) DB:** 
 
-*UPDATED ERD**
-
-This updated ERD depicts the relational ties between the nine tables cleaned and  created in a Database in preparation for analysis. With the common denominators being year and province, etc it will be determined how crime rate, greenhouse emmisions, number of post secondary educational institutions, household income, immigration income and population, as well as educational institution tuition help to shape the choice of where to live and the effects on housing prices per province. The nine tables are as follows:
-
-1. avg_house_prices
-2. crime_rate
-3. educational_institutions
-4. greenhouse
-5. household_income
-6. immigration_median_income
-7. immigration_population
-
-
-<img width="1440" alt="Screen Shot 2022-04-06 at 5 45 04 PM" src="https://user-images.githubusercontent.com/90135381/162077174-79a86e50-0de4-4466-abbd-81009dd11bfd.png">
-
-
-fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD (above) with the schema/queries below:
-
-**Database Schema/Query**
-
-The DataBase was completed via Postgres and SQL, along with the ERD. Please refer to link below:
-group10database.cakmngpixa6j.us-east-1.rds.amazonaws.com
-
-<img width="1356" alt="SQL" src="https://user-images.githubusercontent.com/90135381/163260886-b63b8243-669a-4d51-9d12-77c1368a6b43.png">
-
-
-CREATE TABLE household_income (
-	Year INT NOT NULL,
-	Province VARCHAR(40) NOT NULL,
-	Income INT NOT NULL
-);
-
-CREATE TABLE population_analysis (
-	Year INT NOT NULL,
-	Province VARCHAR(40) NOT NULL,
-	population BIGINT NOT NULL
-);
-
-CREATE TABLE avg_house_price (
-	Year INT NOT NULL,
-	Province VARCHAR(40) NOT NULL,
-	Avg_price BIGINT NOT NULL
-);
-CREATE TABLE crime_rate (
-	Year INT NOT NULL,
-	Province VARCHAR(40) NOT NULL,
-	Avg_price BIGINT NOT NULL
-);
-
-CREATE TABLE educational_institutions (
-	Province VARCHAR(40) NOT NULL,
-	educational_institutions INT NOT NULL
-);
-
-CREATE TABLE immigration_median_income (
-	Year INT NOT NULL,
-	Province VARCHAR(40) NOT NULL,
-	immigrant_median_income BIGINT NOT NULL
-);
-
-CREATE TABLE immigration_population (
-	Year INT NOT NULL,
-	Province VARCHAR(40) NOT NULL,
-	immigrants BIGINT NOT NULL,
-	refugees BIGINT NOT NULL
-);
-
-CREATE TABLE province_household_income (
-	Year INT NOT NULL,
-	Province VARCHAR(40) NOT NULL,
-	income BIGINT NOT NULL,
-);
-CREATE TABLE tuition ( 
-	Year INT NOT NULL,
-	Province VARCHAR(40) NOT NULL,
-	Population_type VARCHAR(40) NOT NULL,
-	Education_type VARCHAR(40) NOT NULL,
-	Tuition BIGINT NOT NULL
-);
-
-CREATE TABLE greenhouse (
-	Year INT NOT NULL,
-	Province VARCHAR(40) NOT NULL,
-	Sector VARCHAR(40) NOT NULL,
-	Kilotonnes bigint NOT NULL
-);
-
-CREATE TABLE household_income (
-	Year INT NOT NULL,
-	Province VARCHAR(40) NOT NULL,
-	house_procies BIGINT NOT NULL,
-	kilotonnes BIGINT NOT NULL,
-	crime BIGINT NOT NULL,
-	immigration_totals BIGINT NOT NULL,
-	med_imm_wages BIGINT NOT NULL,
-	household_income BIGINT NOT NULL,
-	population BIGINT NOT NULL
-);
-
-CREATE TABLE household_income (
-	Year INT NOT NULL,
-	Province VARCHAR(40) NOT NULL,
-	house_procies BIGINT NOT NULL,
-	kilotonnes BIGINT NOT NULL,
-	crime BIGINT NOT NULL,
-	immigration_totals BIGINT NOT NULL,
-	med_imm_wages BIGINT NOT NULL,
-	household_income BIGINT NOT NULL,
-	population BIGINT NOT NULL
-);
-
-CREATE TABLE data_by_year_prov_totals (
-	year INT NOT NULL,
-	province VARCHAR(40) NOT NULL,
-	house_prices BIGINT NOT NULL,
-	kilotonnes BIGINT NOT NULL,
-	crime BIGINT NOT NULL,
-	immigration_totals BIGINT NOT NULL,
-	med_imm_wages BIGINT NOT NULL,
-	household_income BIGINT NOT NULL,
-	population BIGINT NOT NULL,
-);
 
 **5) DASHBOARD:**
 
-blueprint, storyboard on GoogleSlides, tools and interactive slides description
 
-
-https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/Preliminarygroup10Dashboard?publish=yes
 
 ***DELIVERABLE/SEGMENT: 3***
 1) PRESENTATION:with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
@@ -514,13 +430,7 @@ ADD: ensure DB is connectable and up to date
 5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description
 ADD: images/data from ML model, 1+ interative element(s). Awaiting final completed ML Model to add to Dashboard for upcoming Presentation; however, revision made to original Blueprint.
 
-<img width="1440" alt="Screen Shot 2022-04-11 at 6 42 07 PM" src="https://user-images.githubusercontent.com/90135381/162845199-9ace348c-79a7-421f-a45a-a503e330c303.png">
-
-
-https://public.tableau.com/authoring/group10Dashboard/Preliminarygroup10Dashboard#2
-
-
-6) EXTRA: Webpage (starter) file:///Users/tanyaczeban/Desktop/webpage/index.html
+6) EXTRA: Webpage (starter) file:///Users/tanyaczeban/Desktop/webpage/index.html ?
 
 ***DELIVERABLE/SEGMENT: 4***
 1) PRESENTATION: with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
@@ -538,7 +448,7 @@ ML Model Benefits: increase number of shifts increases accuracy
 
 5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description. ADD: logical and easy to read, images/data from ML model, 1+ interative element(s), images or report from ML, published or screenshot.
 
-6) EXTRA: Webpage (starter) file:///Users/tanyaczeban/Desktop/webpage/index.html
+6) EXTRA: Webpage (starter) file:///Users/tanyaczeban/Desktop/webpage/index.html ?
 
 ____________
 ## **SELF_ASSESSMENT/SUMMARY:**
