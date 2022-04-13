@@ -12,12 +12,12 @@
 ________________
 
 
- **Predicting Housing Prices Per Province**
+ **ML & Canadian Real Estate Prices: Predicting Housing Prices Per Province**
  ________________________________
 
 ***OVERVIEW:***
 
-The motivation for this project is to ultimately integrate all of the knowledge obtained and pertain it to real life situations utilizing statistics, data (pre)processing and Machine Learning (ML) procedures to create relevent and predictive models regarding this topic. The final model will be presented utilizing vizualizations for ease of conveying the aforementioned. A collaborative effort is being initiated to consider the topic of housing price indices, income, availability, and immigration across Canada, as this is a pertinent and essential topic among people in this day and age! 2015-2019.
+The motivation for this project is to ultimately integrate all of the knowledge obtained from BCS and pertain it to real life situations. This was achieved by utilizing statistics, data pre-processing and Machine Learning (ML) procedures to create relevent and predictive models regarding this topic. The final model will be presented utilizing vizualizations for ease of conveying the aforementioned data. A collaborative effort is being initiated to consider the topic of housing price indices betwee 2015-2019 with regards to population, income, crime rate, education availability and greenhouse gases across Canada, as this is a pertinent and essential topic among people in this day and age!
 
 ## **Questions with data:**
 
@@ -160,6 +160,7 @@ fully integrated DB connecting to the model, 1+ joins, one connection string, up
 The DataBase was completed via Postgres and SQL, along with the ERD. Please refer to link below:
 group10database.cakmngpixa6j.us-east-1.rds.amazonaws.com
 
+<img width="1356" alt="SQL" src="https://user-images.githubusercontent.com/90135381/163260886-b63b8243-669a-4d51-9d12-77c1368a6b43.png">
 
 
 CREATE TABLE household_income (
