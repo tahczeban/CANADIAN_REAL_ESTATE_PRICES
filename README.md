@@ -107,7 +107,7 @@ Links to scribblemaps:
     -   Clearly demonstrate which factors have the greatest impact on house prices in each province.
 
     
-=======
+
    - Data cleaning: Remove the irrelevant observations from collect data, including the null value and duplicate data.  Check the outlier? (Box and whisker plot)
    - Data intergration: combime independent variable and dependent variable each year as one table (2015-2019)
      -	Independent variable: provincial population, crime rate, household income,   greenhouse emission, number of colleges
@@ -131,7 +131,7 @@ Links to scribblemaps:
   -	Benefits:
     -	Visually show the impact of each element on house prices
     -	Verify if these factors affect house prices to the same extent each year
-    -	
+  
 
 
 
