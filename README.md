@@ -15,7 +15,7 @@ ________________
  **PART 1: ML & Canadian Real Estate Prices: Predicting Housing Prices Per Province**
  ________________________________
 
-***OVERVIEW:***
+## **OVERVIEW:**
 
 The motivation for this project is to ultimately integrate all of the knowledge obtained from BCS and pertain it to real life situations. This was achieved by utilizing statistics, data pre-processing and Machine Learning (ML) procedures to create relevent and predictive models regarding this topic. The final model will be presented utilizing vizualizations for ease of conveying the aforementioned data. A collaborative effort is being initiated to consider the topic of housing price indices betwee 2015-2019 with regards to population, income, crime rate, education availability and greenhouse gases across Canada, as this is a pertinent and essential topic among people in this day and age!
 
@@ -35,7 +35,7 @@ The motivation for this project is to ultimately integrate all of the knowledge 
 
 - How does provincial greenhouse gas effect population/house prices?
 
-## **We chose this question because:**
+## **We chose these Questions because:**
 
 - affordability concerns for first-time buyers/younger adults
 
@@ -256,7 +256,7 @@ https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/Prelimin
 ______________
 ## **PART 2: DELIVERABLES1-4:**
 
-***DELIVERABLE 1***
+***DELIVERABLE/SEGMENT 1:***
 
 The results for Deliverable 1 encompass team collaboration via slack and with the Teaching Staff, in order to accomplish the goals. GitHub establishment requirements will be met including: initialization of an appropriate repository, addition of all branches and a README. Additionally, cleaning and pre-processing the data will be considered. A 'mockup' database will be included, as well as a potential 'mockup' ML model. Lastly, an example ERD will be included for this submission to meet all requirements. A SCRUM method of approach will be contemplated in order to attain all goals with optimal results.
 
@@ -270,7 +270,7 @@ The results for Deliverable 1 encompass team collaboration via slack and with th
 
 5) DASHBOARD: blueprint, storyboard on GoogleSlides, tools and interactive slides description
 
-***DELIVERABLE 2***
+***DELIVERABLE/SEGMENT 2:***
 
 For this Deliverable, there will be augmentations for 5 requirements:
 
@@ -341,7 +341,7 @@ For this Deliverable, there will be augmentations for 5 requirements:
 
 
 
-***DELIVERABLE/SEGMENT: 3***
+***DELIVERABLE/SEGMENT 3:***
 
 1) PRESENTATION:with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
 ADD: a more thorough description of the analysis, technologies/languages/tools and algorithms with updated slides. The slides were updated with the Revised ML Model via images with text descriptions.
@@ -463,7 +463,7 @@ ADD: images/data from ML model, 1+ interative element(s). Awaiting final complet
 
 6) EXTRA: Webpage (starter) file:///Users/tanyaczeban/Desktop/webpage/index.html ?
 
-***DELIVERABLE/SEGMENT: 4***
+***DELIVERABLE/SEGMENT 4:***
 
 1) PRESENTATION: with project outline, topic and why we chose the questions, data source, description of data exploration and analysis, google slides
 ADD: a more thorough description of the analysis, technologies/languages/tools and algorithms with updated slides/images. Live presentation: all present, realtime dashboard interactivity, within time limits (7 minutes present, 5 minutes questions), speaker notes flashcards or video of presentation rehearsal
