@@ -98,6 +98,7 @@ Links to scribblemaps:
   -	Limitations:
     -	The model can only show the effects of selected features and cannot analyze factors that were not selected.
     -	It is challenging to model nonlinear data or polynomial regression with the correlation between data features.
+  -	only could test a few povinces at a time
   -	Benefits:
     -	Visually show the impact of each element on house prices
     -	Verify if these factors affect house prices to the same extent each year
