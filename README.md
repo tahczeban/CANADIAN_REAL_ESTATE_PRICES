@@ -19,15 +19,11 @@ ________________
 
 The motivation for this project is to ultimately integrate all of the knowledge obtained from BCS and pertain it to real life situations. This was achieved by utilizing statistics, data pre-processing and Machine Learning (ML) procedures to create relevent and predictive models regarding this topic. The final model will be presented utilizing vizualizations for ease of conveying the aforementioned data. A collaborative effort is being initiated to consider the topic of housing price indices betwee 2015-2019 with regards to population, income, crime rate, education availability and greenhouse gases across Canada, as this is a pertinent and essential topic among people in this day and age!
 
-## **Questions with data:**
+## ** Primary Questions:**
 
-- does immigration or population have a greater impact on housing prices provincially, in Canada?
-
-- Which province is the best province to purchase a house in for investment/personal purposes?
-
-- How does household income determine housing selection and location?
-
-- How does immigration effect the residential property price index across Canada?
+1. In which Province(s) can a potential buyer afford to purchase their home, based on their budget?
+2. How do geographic features effect home prices in different provinces?
+3. What is the projected 2020 home prices per Province, given the data gathered for this study?
 
 ## **Additional Questions:**
 
@@ -43,7 +39,7 @@ The motivation for this project is to ultimately integrate all of the knowledge 
 
 - population alterations and migration trends across Canada
 
-- municipal/national housing: trending if housing supply meets demands
+- make educated decisions regarding this big purchase, based on important features/popular current topics?
 
 ________________
 ## **RESULTS:**
