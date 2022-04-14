@@ -259,9 +259,11 @@ The final Dashboard Presentation, including interactive/dynamic depictions for:
 
 <img width="796" alt="Final Group10 Dashboard" src="https://user-images.githubusercontent.com/90135381/163468824-ac9d7eb5-ac7c-4efd-bdff-cee6f8a3abae.png">
 
+LINK: https://public.tableau.com/authoring/Group10RealEstateDashboard/Finalgroup10Dashboard#3
+
 							FIGURE: Dashboard
 
-LINK: https://public.tableau.com/authoring/Group10RealEstateDashboard/Finalgroup10Dashboard#3
+
 
 ## **CONCLUSION:**    
 
