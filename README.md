@@ -67,7 +67,7 @@ https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0
 
 **3) DB:**
 
-This ERD depicts the relational ties between the nine tables cleaned and created in an SQL Database in preparation for analysis. With the common denominators being year and province, etc it will be determined how crime rate, greenhouse emmisions, number of post secondary educational institutions, household income, immigration income and population all contribute to shaping the choice of where to live and the effects on housing prices per province. The eight tables are as follows:
+This ERD depicts the relational ties between the eight tables cleaned and created in an SQL Database in preparation for analysis. With the common denominators being year and province, etc it will be determined how crime rate, greenhouse emmisions, number of post secondary educational institutions, household income, immigration income and population all contribute to shaping the choice of where to live and the effects on housing prices per province. The eight tables are as follows:
 
 1. avg_house_prices
 2. crime_rate
