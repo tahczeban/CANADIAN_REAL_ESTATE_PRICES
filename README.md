@@ -12,7 +12,7 @@
 ________________
 
 
- **PART 1: ML & Canadian Real Estate Prices: Predicting Housing Prices Per Province**
+ **PART 1: ML & Canadian Real Estate Prices: Predicting Housing Prices Per Province with Supervised Linear Regression**
  ________________________________
 
 ## **OVERVIEW:**
@@ -201,7 +201,7 @@ CREATE TABLE data_by_year_prov_totals (
 
    4. Data type transfer: change string to float type
 
-- Description of preliminary feature(s) engineering and preliminary feature(s) selection, including their decision-making process 
+- Description of preliminary feature(s) engineering and preliminary feature(s) selection, including their decision-making process: 
 
    -  Separate each province's house price from 2015 to 2019. Each line includes all the independent and dependent variables. Apply the time lag process to the previous years to forecast the future house prices 
 
@@ -213,11 +213,11 @@ CREATE TABLE data_by_year_prov_totals (
 
 
 
-- Description of how data was split into training and testing sets
+- Description of how data was split into training and testing sets:
 
    - 80% of dependant and independant variables are the training sets, 20% of them are test sets
    
-- Explanation of model choice, including limitations and benefits 
+- Explanation of model choice, including limitations and benefits:
 
   - Model: multi-variables regression
   
@@ -225,15 +225,15 @@ CREATE TABLE data_by_year_prov_totals (
   
   -	Limitations:
   
-    -	Only can continuous numerical can be counted in data.
-    -   We can not measure accuracy for 2020 price because we don't have the 2020 actual data to refer to.
-    -   The model can only show the effects of selected features and cannot analyze factors that were not 	  selected.
+    -	Only can continuous numerical can be counted in data
+    -   We can not measure accuracy for 2020 price because we don't have the 2020 actual data to refer to/BC has low accuracy
+    -   The model can only show the effects of selected features and cannot analyze factors that were no selected
 
   -	Benefits:
   
-    -	We can train and test the model to predict the future house price. 
-    -   We can used the 2018 and 2019 original values to the dataset to calculate the accurancy. 
-    -   Clearly demonstrate which factors have the greatest impact on house prices in each province.
+    -	We can train and test the model to predict the future house price
+    -   We can used the 2018 and 2019 original values to the dataset to calculate the accurancy 
+    -   Clearly demonstrate which factors have the greatest impact on house prices in each province
 
 **5) DASHBOARD:** 
 
