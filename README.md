@@ -190,16 +190,16 @@ CREATE TABLE data_by_year_prov_totals (
 
  - Description of preliminary data preprocessing:
 
-   1) Data cleaning: Remove the irrelevant observations from the collected data, including the null values and 	  duplicated data  
-   2) Data integration: combime independent variable and dependent variable each year as one table (2015-2019)
+   1. Data cleaning: Remove the irrelevant observations from the collected data, including the null values and 	  duplicated data  
+   2. Data integration: combime independent variable and dependent variable each year as one table (2015-2019)
      -	Independent variable: kilotonnes/Greenhouse gas, crime rate, household income, provicial population,   	  immigration population, median immigration wage
      -	Dependent variable: provincial house prices 
-   3) Data reduction: reduce dimensionality (scale method), create dummy data for each province (into 0 or 1)
+   3. Data reduction: reduce dimensionality (scale method), create dummy data for each province (into 0 or 1)
 
 <img width="1027" alt="1_dummy_var" src="https://user-images.githubusercontent.com/90135381/163444220-cb7ec650-28be-4f73-a705-608fa4deeb04.png">
 
 
-   4) Data type transfer: change string to float type
+   4. Data type transfer: change string to float type
 
 - Description of preliminary feature(s) engineering and preliminary feature(s) selection, including their decision-making process 
 
@@ -258,7 +258,7 @@ The final Dashboard Presentation, including interactive/dynamic depictions for:
 
 LINK: https://public.tableau.com/authoring/Group10RealEstateDashboard/Finalgroup10Dashboard#3
 
-## **CONCLUSION:**     !!!!!!!HAVE TO ADD DYLANS STUFF HERE!!!!!!!!!!!!!!!!
+## **CONCLUSION:**    
 
 
 
@@ -279,11 +279,14 @@ LINK: https://public.tableau.com/authoring/Group10RealEstateDashboard/Finalgroup
 
 DF for prediction; our model predicts price will increase from 2019 as follows:
 
-NF 298026 (-272700)
+NEWFOUNDLAND PREDICTION: 298,026; RANGE [284,465, 311,586]
+ACCURACY:
 
-Ontario:714495 (-630600)
+ONTARIO PREDICTION: 714,495; RANGE [708,779, 720,210]
+ACCURACY:
 
-BC: 1162021 (-785500)
+BC PREDICTION: 1,162,021; RANGE [995,851, 1,328,190]
+ACCURACY:
 
 ______________
 ## **PART 2: DELIVERABLES1-4:**
