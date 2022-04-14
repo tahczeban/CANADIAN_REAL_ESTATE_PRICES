@@ -192,7 +192,7 @@ CREATE TABLE data_by_year_prov_totals (
 
  - Description of preliminary data preprocessing
 
-   1) Data cleaning: Remove the irrelevant observations from collect data, including the null value and duplicated data  
+   1) Data cleaning: Remove the irrelevant observations from the collect data, including the null values and duplicated data  
    2) Data intergration: combime independent variable and dependent variable each year as one table (2015-2019)
      -	Independent variable: kilotonnes/Greenhouse gas, crime rate, household income, provicial population, immigration population, median immigration 	wage
      -	Dependent variable: provincial house prices 
@@ -201,7 +201,7 @@ CREATE TABLE data_by_year_prov_totals (
 
 - Description of preliminary feature(s) engineering and preliminary feature(s) selection, including their decision-making process 
 
-   -  Separate each province's house price from 2015 to 2019. Each line includes all the independent and dependent variables. Apply the time lag process 	to the previous years to forecast the future house prices 
+   -  Separate each province's house price from 2015 to 2019. Each line includes all the independent and dependent variables. Apply the time lag process              	    to the previous years to forecast the future house prices 
 
 - Description of how data was split into training and testing sets
 
@@ -211,7 +211,7 @@ CREATE TABLE data_by_year_prov_totals (
 
   - Model: multi-variables regression
   
-  - Description: the outcome of the analysis is continuous by each year to figure out the different variables that affect the house price. Therefore, we 	use the unsupervised machine learning method to analyze the future house prices. In addition, our team used three provinces to train the model 		based on the existing data, then used the same model to predict the 2020 house prices based on the 2019 data.
+  - Description: the outcome of the analysis is continuous by each year to figure out the different variables that affect the house price. Therefore, we     	 used the unsupervised machine learning method to analyze the future house prices. In addition, our team used three provinces to train the model    	based on the existing data, then used the same model to predict the 2020 house prices based on the 2019 data.
   
   -	Limitations:
   
