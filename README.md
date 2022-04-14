@@ -467,7 +467,7 @@ ________
 
 Tableau, Scribblemaps, Google Slides, Python/Vsc, Pandas
 
-Published Tableau blueprint @ https://public.tableau.com/authoring/group10_Dashboard/Preliminarygroup10Dashboard#1
+https://public.tableau.com/authoring/Group10RealEstateDashboard/Finalgroup10Dashboard#3
 
 _________
 ## **Data Sources**
