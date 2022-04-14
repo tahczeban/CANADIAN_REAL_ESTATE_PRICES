@@ -232,7 +232,7 @@ CREATE TABLE data_by_year_prov_totals (
   
     -	Only can continuous numerical can be counted in data
     -   We can not measure accuracy for 2020 price because we don't have the 2020 actual data to refer to/BC has low accuracy
-    -   The model can only show the effects of selected features and cannot analyze factors that were no selected
+    -   The model can only show the effects of selected features and cannot analyze factors that were not selected
 
   -	Benefits:
   
@@ -267,6 +267,7 @@ LINK: https://public.tableau.com/authoring/Group10RealEstateDashboard/Finalgroup
 
 ## **CONCLUSION:**    
 
+In conclusion, it can be ascertained that our model is fairly accurate, for the three Provinces that we chose: BC, Newfoundland and Ontario, with the exception of BC. As mentioned above, the limitations included the fact that we had to apply the model to each Province individually. Therefore, some recommendations would be to re-configure the model to include all of Canada, include a larger Dataset and make a more longitudinal analysis, for a more thorough study.
 
 
 <img width="494" alt="4  prediction:2018:compared to actual" src="https://user-images.githubusercontent.com/90135381/163443913-676eb197-5dba-40a1-a132-f27b06d51f32.png">
@@ -294,13 +295,13 @@ DF for prediction; our model predicts price will increase from 2019 as follows:
 						FIGURE: Accuracy
 
 NEWFOUNDLAND PREDICTION: 298,026; RANGE [284,465, 311,586]
-ACCURACY: 4.55%
+ACCURACY: 4.55% 
 
 ONTARIO PREDICTION: 714,495; RANGE [708,779, 720,210]
-ACCURACY: 0.84%
+ACCURACY: 0.84% 
 
 BC PREDICTION: 1,162,021; RANGE [995,851, 1,328,190]
-ACCURACY: 14.30%
+ACCURACY: 14.30% 
 
 ______________
 ## **PART 2: DELIVERABLES1-4:**
