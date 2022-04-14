@@ -259,9 +259,9 @@ The final Dashboard Presentation, including interactive/dynamic depictions for:
 
 
 
-LINK: https://public.tableau.com/authoring/Final_Group10_Dashboard/Preliminarygroup10Dashboard#1
+LINK: https://public.tableau.com/authoring/FinalGROUP10Dashboard/Finalgroup10Dashboard#1
 
-## **CONCLUSION:**     !!!!!!!HAVE TO ADD THEIR STUFF HERE!!!!!!!!!!!!!!!!
+## **CONCLUSION:**     !!!!!!!HAVE TO ADD DYLANS STUFF HERE!!!!!!!!!!!!!!!!
 
 
 
