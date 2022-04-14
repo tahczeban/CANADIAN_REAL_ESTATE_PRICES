@@ -81,12 +81,15 @@ This ERD depicts the relational ties between the eight tables cleaned and create
 
 <img width="1440" alt="Screen Shot 2022-04-06 at 5 45 04 PM" src="https://user-images.githubusercontent.com/90135381/162077174-79a86e50-0de4-4466-abbd-81009dd11bfd.png">
 
+						FIGURE: ERD
 **Database Schema/Query**
 
 The DataBase was completed via Postgres and SQL, along with the ERD.Link: group10database.cakmngpixa6j.us-east-1.rds.amazonaws.com . A fully integrated DB connecting to the model was created, as well as 1+ joins, one connection string and an updated ERD (above) with the schema/queries below:
 
 
 <img width="1356" alt="SQL" src="https://user-images.githubusercontent.com/90135381/163260886-b63b8243-669a-4d51-9d12-77c1368a6b43.png">
+
+						FIGURE: SQL/Tables
 
 
 CREATE TABLE household_income (
@@ -196,9 +199,10 @@ CREATE TABLE data_by_year_prov_totals (
      -	Dependent variable: provincial house prices 
    3. Data reduction: reduce dimensionality (scale method), create dummy data for each province (into 0 or 1)
    4. Data type transfer: change string to float type
+   5. 
 <img width="1027" alt="1_dummy_var" src="https://user-images.githubusercontent.com/90135381/163444220-cb7ec650-28be-4f73-a705-608fa4deeb04.png">
 
-
+						FIGURE: Dummy Variables
    
 
 - Description of preliminary feature(s) engineering and preliminary feature(s) selection, including their decision-making process: 
@@ -208,10 +212,11 @@ CREATE TABLE data_by_year_prov_totals (
 
 <img width="685" alt="2_shifting -1, -2" src="https://user-images.githubusercontent.com/90135381/163444167-329e1f6f-cde0-4e36-b35e-96fa81e89b78.png">
 
+						FIGURE: Shifting -1, -2
 
 <img width="1026" alt="3_shift" src="https://user-images.githubusercontent.com/90135381/163444128-43a5055f-c9c8-48d4-a5b6-01ddc880a67b.png">
 
-
+						FIGURE: Shifting
 
 - Description of how data was split into training and testing sets:
 
@@ -254,7 +259,7 @@ The final Dashboard Presentation, including interactive/dynamic depictions for:
 
 <img width="796" alt="Final Group10 Dashboard" src="https://user-images.githubusercontent.com/90135381/163468824-ac9d7eb5-ac7c-4efd-bdff-cee6f8a3abae.png">
 
-
+						FIGURE: Dashboard
 
 LINK: https://public.tableau.com/authoring/Group10RealEstateDashboard/Finalgroup10Dashboard#3
 
@@ -264,18 +269,21 @@ LINK: https://public.tableau.com/authoring/Group10RealEstateDashboard/Finalgroup
 
 <img width="494" alt="4  prediction:2018:compared to actual" src="https://user-images.githubusercontent.com/90135381/163443913-676eb197-5dba-40a1-a132-f27b06d51f32.png">
 
+						FIGURE Predictions
 
 <img width="431" alt="5  ontario 2018 prediction" src="https://user-images.githubusercontent.com/90135381/163443970-4f811752-ca31-4c06-b956-9521d161c008.png">
 
 
+						FIGURE: Ontario Predictions
+
 <img width="430" alt="BC 2018 prediction" src="https://user-images.githubusercontent.com/90135381/163443986-b3ad8d1f-b944-416a-b01e-736bd4936054.png">
 
-
+						FIGURE: BC Predictions
 
 
 <img width="551" alt="Conclusion" src="https://user-images.githubusercontent.com/90135381/163439483-4b4a8e6e-0a67-4e14-b4c8-43ee10e85f14.png">
 
-
+						FIGURE: Prediction Bar Chart for the Three Provinces
 
 DF for prediction; our model predicts price will increase from 2019 as follows:
 
