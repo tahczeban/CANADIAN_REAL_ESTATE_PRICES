@@ -252,6 +252,13 @@ https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/Prelimin
 
 ## **CONCLUSION:**     !!!!!!!HAVE TO ADD THEIR STUFF HERE!!!!!!!!!!!!!!!!
 
+<img width="1440" alt="Conclusion" src="https://user-images.githubusercontent.com/90135381/163308806-e598070b-7745-43ad-af09-446d8ff8ed58.png">
+
+
+DF for prediction: our model oredicts price will increase form 2019
+NF 298026 (-272700)
+Ontario:714495 (-630600)
+BC: 1162021 (-785500)
 
 ______________
 ## **PART 2: DELIVERABLES1-4:**
