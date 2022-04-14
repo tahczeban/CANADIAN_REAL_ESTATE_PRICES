@@ -255,11 +255,11 @@ The final Dashboard Presentation, including interactive/dynamic depictions for:
 	link: <a href="https://lovepik.com/images/png-banking.html">Banking Png vectors by Lovepik.com</a>
 	
 
-<img width="1440" alt="Screen Shot 2022-04-11 at 6 42 07 PM" src="https://user-images.githubusercontent.com/90135381/162845199-9ace348c-79a7-421f-a45a-a503e330c303.png">
+<img width="796" alt="Final Group10 Dashboard" src="https://user-images.githubusercontent.com/90135381/163468824-ac9d7eb5-ac7c-4efd-bdff-cee6f8a3abae.png">
 
 
 
-LINK: https://public.tableau.com/authoring/FinalGROUP10Dashboard/Finalgroup10Dashboard#1
+LINK: https://public.tableau.com/authoring/Group10RealEstateDashboard/Finalgroup10Dashboard#3
 
 ## **CONCLUSION:**     !!!!!!!HAVE TO ADD DYLANS STUFF HERE!!!!!!!!!!!!!!!!
 
