@@ -289,14 +289,18 @@ LINK: https://public.tableau.com/authoring/Group10RealEstateDashboard/Finalgroup
 
 DF for prediction; our model predicts price will increase from 2019 as follows:
 
+<img width="1137" alt="Screen Shot 2022-04-14 at 6 52 28 PM" src="https://user-images.githubusercontent.com/90135381/163490465-0e8ed6ad-060a-40ab-8fab-0640d515cb03.png">
+
+						FIGURE: Accuracy
+
 NEWFOUNDLAND PREDICTION: 298,026; RANGE [284,465, 311,586]
-ACCURACY:
+ACCURACY: 4.55%
 
 ONTARIO PREDICTION: 714,495; RANGE [708,779, 720,210]
-ACCURACY:
+ACCURACY: 0.84%
 
 BC PREDICTION: 1,162,021; RANGE [995,851, 1,328,190]
-ACCURACY:
+ACCURACY: 14.30%
 
 ______________
 ## **PART 2: DELIVERABLES1-4:**
