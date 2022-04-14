@@ -244,11 +244,11 @@ The final Dashboard Presentation, including interactive/dynamic depictions for:
 
 	1) map of prices and population per province (choose prov dropdown to highlight features in 2)
 	
-	2) dynamic features bubble chart for house prices (please change drop down options to view 		different features)
+	2) dynamic/interactive features bubble chart for house prices (please change drop down options to 	  view different features)
 	
-	3) dynamic features by budget (please chose desired budget with slider to view associated features)
+	3) dynamic/interactive features by budget (please chose desired budget with slider to view 		associated features)
 	
-	4)Temp addition of Correlation Heatmap from ML Model (Right)
+	4) Addition of Predicted Prices Bar Chart (Right)
 	
 	5)Added url to github with logo (top right) on header:
 	
@@ -258,10 +258,8 @@ The final Dashboard Presentation, including interactive/dynamic depictions for:
 <img width="1440" alt="Screen Shot 2022-04-11 at 6 42 07 PM" src="https://user-images.githubusercontent.com/90135381/162845199-9ace348c-79a7-421f-a45a-a503e330c303.png">
 
 
-blueprint, storyboard on GoogleSlides, tools and interactive slides description
 
-
-https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/Preliminarygroup10Dashboard?publish=yes
+LINK: https://public.tableau.com/authoring/Final_Group10_Dashboard/Preliminarygroup10Dashboard#1
 
 ## **CONCLUSION:**     !!!!!!!HAVE TO ADD THEIR STUFF HERE!!!!!!!!!!!!!!!!
 
