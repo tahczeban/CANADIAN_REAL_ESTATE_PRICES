@@ -197,11 +197,24 @@ CREATE TABLE data_by_year_prov_totals (
      -	Independent variable: kilotonnes/Greenhouse gas, crime rate, household income, provicial population, immigration population, median immigration 	wage
      -	Dependent variable: provincial house prices 
    3) Data reduction: reduce dimensionality (scale method), create a dummy data for each province into 0 or 1
-   4) Data type transfer: change string to float type
+
+<img width="1027" alt="1_dummy_var" src="https://user-images.githubusercontent.com/90135381/163444220-cb7ec650-28be-4f73-a705-608fa4deeb04.png">
+
+
+
+   5) Data type transfer: change string to float type
 
 - Description of preliminary feature(s) engineering and preliminary feature(s) selection, including their decision-making process 
 
-   -  Separate each province's house price from 2015 to 2019. Each line includes all the independent and dependent variables. Apply the time lag process              	    to the previous years to forecast the future house prices 
+   -  Separate each province's house price from 2015 to 2019. Each line includes all the independent and dependent variables. Apply the time lag process to the previous years to forecast the future house prices 
+
+
+<img width="685" alt="2_shifting -1, -2" src="https://user-images.githubusercontent.com/90135381/163444167-329e1f6f-cde0-4e36-b35e-96fa81e89b78.png">
+
+
+<img width="1026" alt="3_shift" src="https://user-images.githubusercontent.com/90135381/163444128-43a5055f-c9c8-48d4-a5b6-01ddc880a67b.png">
+
+
 
 - Description of how data was split into training and testing sets
 
@@ -211,7 +224,7 @@ CREATE TABLE data_by_year_prov_totals (
 
   - Model: multi-variables regression
   
-  - Description: the outcome of the analysis is continuous by each year to figure out the different variables that affect the house price. Therefore, we     	 used the unsupervised machine learning method to analyze the future house prices. In addition, our team used three provinces to train the model    	based on the existing data, then used the same model to predict the 2020 house prices based on the 2019 data.
+  - Description: the outcome of the analysis is continuous by each year to figure out the different variables that affect the house price. Therefore, we used the unsupervised machine learning method to analyze the future house prices. In addition, our team used three provinces to train the model based on the existing data, then used the same model to predict the 2020 house prices based on the 2019 data.
   
   -	Limitations:
   
@@ -231,7 +244,7 @@ The final Dashboard Presentation, including interactive/dynamic depictions for:
 
 	1) map of prices and population per province (choose prov dropdown to highlight features in 2)
 	
-	2) dynamic features bubble chart for house prices (please change drop down options to view different features)
+	2) dynamic features bubble chart for house prices (please change drop down options to view 		different features)
 	
 	3) dynamic features by budget (please chose desired budget with slider to view associated features)
 	
@@ -251,6 +264,19 @@ blueprint, storyboard on GoogleSlides, tools and interactive slides description
 https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/Preliminarygroup10Dashboard?publish=yes
 
 ## **CONCLUSION:**     !!!!!!!HAVE TO ADD THEIR STUFF HERE!!!!!!!!!!!!!!!!
+
+
+
+<img width="494" alt="4  prediction:2018:compared to actual" src="https://user-images.githubusercontent.com/90135381/163443913-676eb197-5dba-40a1-a132-f27b06d51f32.png">
+
+
+<img width="431" alt="5  ontario 2018 prediction" src="https://user-images.githubusercontent.com/90135381/163443970-4f811752-ca31-4c06-b956-9521d161c008.png">
+
+
+<img width="430" alt="BC 2018 prediction" src="https://user-images.githubusercontent.com/90135381/163443986-b3ad8d1f-b944-416a-b01e-736bd4936054.png">
+
+
+
 
 <img width="551" alt="Conclusion" src="https://user-images.githubusercontent.com/90135381/163439483-4b4a8e6e-0a67-4e14-b4c8-43ee10e85f14.png">
 
