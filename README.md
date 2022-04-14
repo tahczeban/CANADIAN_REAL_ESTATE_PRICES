@@ -195,11 +195,11 @@ CREATE TABLE data_by_year_prov_totals (
      -	Independent variable: kilotonnes/Greenhouse gas, crime rate, household income, provicial population,   	  immigration population, median immigration wage
      -	Dependent variable: provincial house prices 
    3. Data reduction: reduce dimensionality (scale method), create dummy data for each province (into 0 or 1)
-
+   4. Data type transfer: change string to float type
 <img width="1027" alt="1_dummy_var" src="https://user-images.githubusercontent.com/90135381/163444220-cb7ec650-28be-4f73-a705-608fa4deeb04.png">
 
 
-   4. Data type transfer: change string to float type
+   
 
 - Description of preliminary feature(s) engineering and preliminary feature(s) selection, including their decision-making process: 
 
