@@ -252,12 +252,16 @@ https://public.tableau.com/app/profile/tanya.czeban/viz/group10_project/Prelimin
 
 ## **CONCLUSION:**     !!!!!!!HAVE TO ADD THEIR STUFF HERE!!!!!!!!!!!!!!!!
 
-<img width="1440" alt="Conclusion" src="https://user-images.githubusercontent.com/90135381/163308806-e598070b-7745-43ad-af09-446d8ff8ed58.png">
+<img width="551" alt="Conclusion" src="https://user-images.githubusercontent.com/90135381/163439483-4b4a8e6e-0a67-4e14-b4c8-43ee10e85f14.png">
 
 
-DF for prediction: our model oredicts price will increase form 2019
+
+DF for prediction; our model predicts price will increase from 2019 as follows:
+
 NF 298026 (-272700)
+
 Ontario:714495 (-630600)
+
 BC: 1162021 (-785500)
 
 ______________
