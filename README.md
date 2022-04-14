@@ -63,11 +63,11 @@ ________________
 
 https://www.scribblemaps.com/create/?gclid=CjwKCAjwuYWSBhByEiwAKd_n_mWpBTjhfwRO0qDbu9-bN8FImiDovtxHWmCMPVT0wdCKbbPEdYf9tBoCOXUQAvD_BwE#/id=lErWy8Ic1v&lat=56.70160853&lng=-98.30477881&z=4&t=custom_style
 
-**2) GitHub:**			!!!!!! REMINDER2ME: WRITE SOMETHING HERE!!!!!!
+**2) GitHub:** Branches were made and maintained. README and all files were updated for each Delieverable/Segment
 
 **3) DB:**
 
-This ERD depicts the relational ties between the nine tables cleaned and created in an SQL Database in preparation for analysis. With the common denominators being year and province, etc it will be determined how crime rate, greenhouse emmisions, number of post secondary educational institutions, household income, immigration income and population, as well as educational institution contribute in shaping the choice of where to live and the effects on housing prices per province. The nine tables are as follows:
+This ERD depicts the relational ties between the nine tables cleaned and created in an SQL Database in preparation for analysis. With the common denominators being year and province, etc it will be determined how crime rate, greenhouse emmisions, number of post secondary educational institutions, household income, immigration income and population all contribute to shaping the choice of where to live and the effects on housing prices per province. The eight tables are as follows:
 
 1. avg_house_prices
 2. crime_rate
@@ -76,17 +76,15 @@ This ERD depicts the relational ties between the nine tables cleaned and created
 5. household_income
 6. immigration_median_income
 7. immigration_population
+8. data_by_year_prov_totals
 
 
 <img width="1440" alt="Screen Shot 2022-04-06 at 5 45 04 PM" src="https://user-images.githubusercontent.com/90135381/162077174-79a86e50-0de4-4466-abbd-81009dd11bfd.png">
 
-
-fully integrated DB connecting to the model, 1+ joins, one connection string, updated ERD (above) with the schema/queries below:
-
 **Database Schema/Query**
 
-The DataBase was completed via Postgres and SQL, along with the ERD. Please refer to link below:
-group10database.cakmngpixa6j.us-east-1.rds.amazonaws.com
+The DataBase was completed via Postgres and SQL, along with the ERD.Link: group10database.cakmngpixa6j.us-east-1.rds.amazonaws.com . A fully integrated DB connecting to the model was created, as well as 1+ joins, one connection string and an updated ERD (above) with the schema/queries below:
+
 
 <img width="1356" alt="SQL" src="https://user-images.githubusercontent.com/90135381/163260886-b63b8243-669a-4d51-9d12-77c1368a6b43.png">
 
@@ -188,21 +186,20 @@ CREATE TABLE data_by_year_prov_totals (
 	population BIGINT NOT NULL,
 );
 
-**4) ML MODEL:**         !!!!!!!REMINDER2ME: ADD UPDATED PICS HERE AND REMOVE FROM BELOW!!!!!!!
+**4) ML MODEL:**       
 
- - Description of preliminary data preprocessing
+ - Description of preliminary data preprocessing:
 
-   1) Data cleaning: Remove the irrelevant observations from the collect data, including the null values and duplicated data  
-   2) Data intergration: combime independent variable and dependent variable each year as one table (2015-2019)
-     -	Independent variable: kilotonnes/Greenhouse gas, crime rate, household income, provicial population, immigration population, median immigration 	wage
+   1) Data cleaning: Remove the irrelevant observations from the collected data, including the null values and 	  duplicated data  
+   2) Data integration: combime independent variable and dependent variable each year as one table (2015-2019)
+     -	Independent variable: kilotonnes/Greenhouse gas, crime rate, household income, provicial population,   	  immigration population, median immigration wage
      -	Dependent variable: provincial house prices 
-   3) Data reduction: reduce dimensionality (scale method), create a dummy data for each province into 0 or 1
+   3) Data reduction: reduce dimensionality (scale method), create dummy data for each province (into 0 or 1)
 
 <img width="1027" alt="1_dummy_var" src="https://user-images.githubusercontent.com/90135381/163444220-cb7ec650-28be-4f73-a705-608fa4deeb04.png">
 
 
-
-   5) Data type transfer: change string to float type
+   4) Data type transfer: change string to float type
 
 - Description of preliminary feature(s) engineering and preliminary feature(s) selection, including their decision-making process 
 
@@ -224,13 +221,13 @@ CREATE TABLE data_by_year_prov_totals (
 
   - Model: multi-variables regression
   
-  - Description: the outcome of the analysis is continuous by each year to figure out the different variables that affect the house price. Therefore, we used the unsupervised machine learning method to analyze the future house prices. In addition, our team used three provinces to train the model based on the existing data, then used the same model to predict the 2020 house prices based on the 2019 data.
+  - Description: the outcome of the analysis is continuous by each year to figure out the different variables that affect the house price. Therefore, we used the unsupervised machine learning method to analyze the future house prices. In addition, our team used three provinces to train the model based on the existing data (BC, Newfoundland, Ontario), then used the same model to predict the 2020 house prices based on the 2019 data.
   
   -	Limitations:
   
     -	Only can continuous numerical can be counted in data.
-    -   We can not measure accuracy for 2020 price because we don't have the 2020 actual data to refer.
-    -   The model can only show the effects of selected features and cannot analyze factors that were not selected.
+    -   We can not measure accuracy for 2020 price because we don't have the 2020 actual data to refer to.
+    -   The model can only show the effects of selected features and cannot analyze factors that were not 	  selected.
 
   -	Benefits:
   
@@ -317,7 +314,7 @@ For this Deliverable, there will be augmentations for 5 requirements:
 
  - Description of preliminary data preprocessing
 
-   - Data cleaning: Remove the irrelevant observations from collect data, including the null value and duplicate data.  
+   - Data cleaning: Remove the irrelevant observations from collect data, including the null value and 	     duplicate data.  
    - Data intergration: combime independent variable and dependent variable each year as one table (2015-2019)
      -	Independent variable: kilotonnes, crime rate, immigration population, median immigration wage, household income, provicial population.
      -	Dependent variable: provincial house prices. 
