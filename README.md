@@ -272,12 +272,12 @@ In conclusion, it can be ascertained that our model is fairly accurate, for the 
 
 <img width="494" alt="4  prediction:2018:compared to actual" src="https://user-images.githubusercontent.com/90135381/163443913-676eb197-5dba-40a1-a132-f27b06d51f32.png">
 
-							FIGURE Predictions
+						FIGURE Predictions
 
 <img width="431" alt="5  ontario 2018 prediction" src="https://user-images.githubusercontent.com/90135381/163443970-4f811752-ca31-4c06-b956-9521d161c008.png">
 
 
-							FIGURE: Ontario Predictions
+						FIGURE: Ontario Predictions
 
 <img width="430" alt="BC 2018 prediction" src="https://user-images.githubusercontent.com/90135381/163443986-b3ad8d1f-b944-416a-b01e-736bd4936054.png">
 
