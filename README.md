@@ -281,12 +281,12 @@ In conclusion, it can be ascertained that our model is fairly accurate, for the 
 
 <img width="430" alt="BC 2018 prediction" src="https://user-images.githubusercontent.com/90135381/163443986-b3ad8d1f-b944-416a-b01e-736bd4936054.png">
 
-							FIGURE: BC Predictions
+						FIGURE: BC Predictions
 
 
 <img width="551" alt="Conclusion" src="https://user-images.githubusercontent.com/90135381/163439483-4b4a8e6e-0a67-4e14-b4c8-43ee10e85f14.png">
 
-							FIGURE: Prediction Bar Chart for the Three Provinces
+					FIGURE: Prediction Bar Chart for the Three Provinces
 
 DF for prediction; our model predicts price will increase from 2019 as follows:
 
