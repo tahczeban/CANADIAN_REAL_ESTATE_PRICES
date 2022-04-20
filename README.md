@@ -1,4 +1,4 @@
-# CANADIAN REAL ESTATE 
+# CANADIAN REAL ESTATE PRICES
 
 ![image](https://user-images.githubusercontent.com/90135381/158727737-2db68a11-9ee9-40e7-986e-71c8bb8369c7.png)
 
